@@ -38,14 +38,7 @@ const Discover = ()=>{
       
           console.log(response.data.results)    })
       }, [])
-      function see(event){
-        axios.get('https://api.themoviedb.org/3/discover/movie?api_key=384a26b16e56aa6177f73139defe1b77&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=flatrate')
-        .then(response =>{
-          //  setdiscmovie(response.data.results)
-        
-        console.log(response.data.results)  })
-          // console.log(response.data.results.title)    })
-      }
+   
 
     return(
         <div>
@@ -91,7 +84,7 @@ const Discover = ()=>{
       <div className={main.upcomingd} > 
         {discmovie && discmovie.map((find)=>(
           <div key={find.id} className={main.upcominglistd}> 
-        <img src={'https://image.tmdb.org/t/p/w500/'+`${find.backdrop_path}`} className={main.upcomingdisc} onClick={see}/>
+        <img src={'https://image.tmdb.org/t/p/w500/'+`${find.backdrop_path}`} className={main.upcomingdisc} />
           {/* <p>{later.title}</p> */}
         </div>
         ))}
