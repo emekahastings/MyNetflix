@@ -2,7 +2,7 @@
   "name": "netflix",
   "version": "0.1.0",
   "private": true,
-  "home": " https://emekahastings.github.io/MyNetflix/",
+  "home": " http://emekahastings.github.io/MyNetflix",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy":"npm  run build",
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

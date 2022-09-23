@@ -22,9 +22,6 @@ import Search from './Search';
 function App() {
  
 
-  function signout(){
-
-  }
  
 return(
   <div>
