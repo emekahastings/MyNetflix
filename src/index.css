@@ -1,0 +1,579 @@
+html{
+  font-size: 16px;
+}
+body{ 
+}
+.first{
+  background: linear-gradient(black, rgb(29, 29, 29));
+}
+.cover{
+ position: relative;
+  width: 100vw;
+  height: 100vh;
+  filter: opacity(0.3);
+  border-bottom: rgb(200, 194, 194) 3px solid;
+  border-width: 0.3rem;
+  /* filter: brightness(25%); */
+}
+.signin{
+  display: flex;
+  float: right;
+ margin-left: auto;
+ margin-right: 3rem;
+position: relative;
+bottom: 1rem;
+cursor: pointer;
+}
+
+.sign{
+width: 100%;
+height: fit-content;
+background-color: red;
+border-radius: 5px;
+   color: white;
+   padding: 10px;
+   font-size: 1.2rem;
+float: right;
+}
+.intro{
+  margin-top: 6rem;
+  text-align: center;
+  filter: opacity(0.8);
+}
+.header{
+  width: 100vw;
+  display: flex;
+  position: absolute;
+  top: 0rem;
+}
+.one{
+   color: white;
+   font-size: 3rem;
+   font-weight: 700;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro{
+  position: absolute;
+  top: 3rem;
+  left: 30%;
+
+}
+.two{
+  color: white;
+  font-size: 1.9rem;
+  line-height: 2px;
+}
+.twoa{
+  color: white;
+  font-size: 1.4rem;
+}
+.logo{
+  width: 10%;
+}
+.mail{
+  width: 60%;
+  padding: 20px;
+  position: relative;
+}
+.started{
+  width: 25%;
+height: fit-content;
+background-color: red;
+
+   color: white;
+   padding: 14px;
+   font-size: 1.8rem;
+   /* bottom: -4.5rem; */
+   left: 67%;
+   position: absolute;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  cursor: pointer;
+}
+.welcome{
+  color: white;
+  font-size: 1.7rem;
+}
+.insert{
+  display: flex;
+  margin-left: 0rem;
+
+}
+.second{
+  display: flex;
+  width: 100vw;
+  background-color: black;
+ padding: 6rem;
+ border-bottom: 3px solid grey;
+ border-width: 0.6rem;
+}
+.texts{
+  padding-top: 7rem;
+}
+.texts2{
+  padding-top: 7rem;
+}
+.texta{
+  font-size: 3rem;
+  color: white;
+  padding-left: 3rem;
+}
+.texta3{
+  font-size: 3rem;
+  color: white;
+  padding-left: 3rem;
+}
+.texta5{
+  font-size: 3rem;
+  color: white;
+  
+}
+.texta2{
+  font-size: 3rem;
+  color: white;
+  padding-left: 3rem;
+}
+.texta1{
+  padding-left: 3.1rem;
+}
+.texts1{
+  padding-top: 3rem;
+  /* display: none; */
+}
+.kids{
+  height: 60vh;
+}
+.tv{
+display: block;
+margin-left: 20%;
+}
+.textb{
+  font-size: 1.8rem;
+  color: white;
+  padding-left: 3rem;
+}
+.textb3{
+  font-size: 1.8rem;
+  color: white;
+  padding-left: 3rem;
+}
+.textb2{
+  font-size: 1.8rem;
+  color: white;
+  padding-left: 3rem;
+}
+.textb5{
+  font-size: 1.8rem;
+  color: white;
+  padding-left: 3rem;
+}
+.phone{
+  height: 60vh;
+}
+.plain-text{
+  display: flex;
+  width: 100vw;
+  background-color: black;
+ padding: 3rem;
+ border-bottom: 3px solid grey;
+ border-width: 0.6rem;
+}
+.thirdp{
+  display: none;
+  width: 100vw;
+  background-color: black;
+ padding: 2rem;
+ border-bottom: 3px solid grey;
+ border-width: 0.6rem;
+}
+.third{
+  display: flex;
+  width: 100vw;
+  background-color: black;
+ padding: 2rem;
+ border-bottom: 3px solid grey;
+ border-width: 0.6rem;
+}
+.fourth{
+  display: flex;
+  width: 100vw;
+  background-color: black;
+ padding: 2rem;
+ border-bottom: 3px solid grey;
+ border-width: 0.6rem;
+}
+
+.deta{
+  color: white;
+  font-size: 1.6rem;
+}
+.q{
+  background-color: rgb(43, 42, 42);
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  padding-bottom: 1rem;
+}
+.freak{
+  margin-top: 2rem;
+}
+.bunch{
+  margin-top: 3rem;
+}
+.what{
+  color: red;
+}
+.texta1{
+   color: white;
+   font-size: 3rem;
+   padding-left: 30%;
+  
+}
+.texta6{
+  color: white;
+  font-size: 3rem;
+ /* padding-left: 30%; */
+text-align: center;
+ 
+}
+.plus{
+  float: right;
+padding-left: 25rem;
+position: relative;
+bottom: 0.5rem;
+  font-size: 2.5rem;
+  color: white;
+  cursor: pointer;
+}
+.total{
+  background-color: black;
+  padding-top: 0.5rem;
+}
+.plus2{
+  font-size: 2.5rem;
+  cursor: pointer;
+  float: right;
+  position: relative;
+  bottom: 1rem;
+}
+.mail1{
+    width: 30%;
+    padding: 20px;
+    position: relative;
+ 
+  }
+  .started1{
+    width: 10%;
+  height: fit-content;
+  background-color: red;
+  border-radius: 5px;
+     color: white;
+     padding: 20px;
+     font-size: 1rem;
+    position: absolute;
+    display: block;
+  }
+  .twoc{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+  }
+.insert2{
+  display: flex;
+  position: relative;
+  left: 27%;
+  padding-bottom: 1.5rem;
+  border-width: 2rem;
+}
+.main{
+  display: flex;
+  border-bottom: 2px solid white;
+}
+.end{
+  display: flex;
+  color: grey;
+  font-size: 1rem;
+  margin-left: 20%;
+
+}
+.end1, .end2, .end3, .end4{
+  padding-left: 4rem;
+}
+.contact{
+  color: grey;
+  padding-left: 25%;
+  margin-top: 4rem;
+
+}
+.fifth{
+
+  background-color: black;
+
+ border-bottom: 3px solid grey;
+ border-width: 0.6rem;
+}
+
+@media screen and (max-width:450px){
+  html{
+    overflow-x: hidden;
+  }
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .cover{
+     height: 60vh;
+   }
+   .logo{
+    width: 15%;
+  }
+  .signin{
+   margin-right: 1rem;
+  position: relative;
+  bottom: 0rem;
+  cursor: pointer;
+  }
+  .sign{
+    border-radius: 5px;
+       padding: 7px;
+    }
+    .intro{
+      margin-top: 3rem;
+      top: 3rem;
+      left: 0%;
+
+    }
+    .header{
+      width: 100vw;
+      display: flex;
+      position: absolute;
+      top: 0rem;
+    }
+    .one{
+       font-size: 1.3rem;
+       font-weight: 600;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .two{
+      font-size: 1.3rem;
+      line-height: 2px;
+    }
+    .twoa{
+      font-size: 1.2rem;
+    }
+   
+    .mail{
+      width: 80%;
+      padding: 15px;
+      position: relative;
+    }
+    .started{
+      width: 35%;
+       padding: 7px;
+       font-size: 1.3rem;
+       margin-top: 0.5rem;
+       left: 30%;
+    }
+    
+    .insert{
+      display: block;    
+    }
+    .second{
+      display: block;
+      width: 100vw;
+      background-color: black;
+     padding: 6rem;
+
+    }
+    .texts{
+      padding-top: 7rem;
+    }
+    .texta{
+      font-size: 1.7rem;
+     margin-left: 7%;
+
+    }
+    .texta1{
+      font-size: 1.7rem;
+
+    }
+    .texta2{
+      font-size: 1.7rem;
+     
+    }
+    .texts2{
+      position: relative;
+      right: 12%;
+    }
+    .texta3{
+      font-size: 1.7rem;
+   margin-left: 15%;
+    }
+    .texta5{
+      font-size: 1.7rem;
+     position: relative;
+     left: 13%;
+    }
+    .texts1{
+      padding-top: 3rem;
+      /* display: none; */
+    }
+  
+    .kids{
+      height: 60vh;
+    }
+    .tv{
+    display: block;
+    margin-left: 6%;
+    }
+    .textb{
+      width: 100vw;
+      font-size: 1.3rem;
+    position: relative;
+   margin-left: -10%;
+  
+    }
+    .textb3{
+      width: 100vw;
+      font-size: 1.3rem;
+      margin-left: 0.5rem;
+    position: relative;
+   right: 0%;
+  
+    }
+    .textb2{
+      width: 100vw;
+      font-size: 1.5rem;
+      font-family: 100;
+    position: relative;
+    right: 6%;
+    }
+    .textb5{
+      width: 100vw;
+      font-size: 1.5rem;
+      margin-left: 0.25rem;
+      margin-right: -10rem;
+    position: relative;
+   right: 18%;
+  
+}
+    .noshow{
+      display: none;
+    }
+    
+    .phone{
+      height: 30vh;
+      margin-left: 15%;
+    }
+    .plain-text{
+      display: flex;
+      width: 100vw;
+      background-color: black;
+     /* padding: 3rem; */
+     border-bottom: 3px solid grey;
+     border-width: 0.6rem;
+    }
+    .third{
+      display: none;
+      width: 100vw;
+      height: 60vh;
+      background-color: black;
+     padding: 2rem;
+    }
+    .thirdp{
+      display: block;
+    }
+    .fourth{
+      display: block;
+      width: 100%;
+      background-color: black;
+     padding: 2rem;
+     position: relative;
+     margin-right: -10rem;
+     border-bottom: 3px solid grey;
+     border-width: 0.6rem;
+    }
+  
+    .text{
+      margin-left: -5.5rem;
+    }
+    .kids{
+      height: 30vh;
+    }
+    .texta6{
+      width: 100%;
+     font-size: 1.7rem;
+     position: relative;     
+     top: 1.5rem;
+    left: 6.5%;
+    }
+    .q{
+      font-size: 1.25rem;
+      width: 82%;
+      position: relative;
+      left: 0%;
+      
+    }
+    .bunch{
+      margin-top: 16%;
+    }
+    .plus{
+      float: right;
+    padding-left: 25rem;
+    position: relative;
+    bottom: 2rem;
+      font-size: 2.5rem;
+      color: white;
+      cursor: pointer;
+    }
+    .total{
+      background-color: black;
+      padding-top: 0.5rem;
+    }
+    .plus2{
+      position: relative;
+      bottom: 1rem;
+    }
+    .insert2{
+      display: block;
+      position: relative;
+      left: 27%;
+      padding-bottom: 6rem;
+      border-width: 2rem;
+    }
+    .mail1{
+      width: 70%;
+      padding: 15px;
+      position: relative;
+     right: 15%;
+    }
+    .started1{
+      width: fit-content;
+      padding:15px;
+      font-size: 1.3rem;
+      text-align: center;
+      margin-left: 10%;
+      
+    }
+    .total{
+      background-color: black;
+      padding-top: 0.5rem;
+      padding-right: 30%;
+    }
+    .end{
+     position: relative;
+     right: 18%;
+    }
+    .end3, .end4{
+      display: none;
+    }
+
+}

@@ -1,0 +1,273 @@
+html{
+    font-size: 16px;
+}
+.app{
+    background-color: black;
+}
+.logo{
+    width: 10%;
+    margin-left: 2%;
+}
+.ham{
+    margin-left: 2%;
+    display: none;
+}
+.cover{
+    width: 100%; 
+    height: auto;
+    position: relative;
+    z-index: 200;
+}
+.points{
+    color: white;
+    font-size: 1.3rem;
+    padding-left: 5%;
+}
+
+.navbar{
+    display: flex;
+}
+h1{color:white}
+.firstp{
+    background-color: red;
+    width: fit-content;
+    padding: 0.5%;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    left: 3.5%;
+}
+
+.dits>h2{
+    color: white;
+}
+
+.covertitle{
+  font-size: 3.5rem;
+  color: red;
+}
+.coveroverview{
+   color:white
+}
+.coverdetails{
+    position: absolute;
+    width: 50%;
+    font-size: 1.4rem;
+    z-index: 500;
+    top: 30%;
+    left: 5%;
+}
+.coverruntime{
+    color: blue;
+    font-size: 2rem;
+}
+.upcoming1{
+    width: 20%;   
+    position: relative;
+}
+.upcomingfall1{
+        width: 33%;   
+        position: relative;
+}
+.upcomingdisc{
+    width: 23%;   
+    position: relative;
+}
+.look{
+    color:white;
+    margin-top:2rem;
+    display: none;
+}
+.upcoming{
+    color: white;
+    display: block;
+    background-color: black;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.upcomingd{
+    color: white;
+    display: block;
+    background-color: black;
+  
+}
+.upcomingfall{
+    color: white;
+    display: block;
+    background-color: black;
+}
+.upcomingfall{
+    color: white;
+    display: block;
+    background-color: black;
+}
+.upcominglist{
+    display: inline;
+   padding-left: 0.2rem;   
+   width: 100%;
+   height: 100%;
+}
+.upcominglistd{
+    display: inline;
+   padding-left: 1rem;   
+   width: 100%;
+   height: 100%;
+}
+/* .desc{
+    position: absolute;
+} */
+.sidebar{
+ 
+    position: absolute;
+    background-color: black;
+    left: 0rem;
+    top: 60px;
+    z-index: 600;
+    width: 20vw;
+    height: 100vh;
+    display: none;
+  }
+  .sidebar>p{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin-bottom: 2rem;
+    z-index: 400;
+  }
+ 
+  .desc{
+    color: white;
+    
+  }
+  .rest{
+    background-color: black;
+  }
+  .search{
+    background-color: white;
+   height: 10%;
+   margin-top: 1.5rem;
+    margin-left:15%;
+  }
+
+  @media screen and (max-width:450px){
+    /* html{
+        overflow-x: hidden;
+    }
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    } */
+    .full{
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+    }
+    .ham{
+        display: block;
+        color: white;
+        padding-top: 5%;
+        height: 22px;
+    }
+    .logo{
+        width: 25%;
+    }
+    .points{
+        display: none;
+    }
+    .firstp{
+        left: 40%;
+        padding: 1.4%;
+    }
+    .sidebar{
+        display: block;
+        width: 45vw;
+    }
+    .sidebar>p{
+        display: block;
+        margin-left: 1rem;
+    }
+    .cover{
+        width: 100vw;
+    }
+    .shortlogo{
+        width: 10%;
+    }
+    .back{
+        color: red;
+        width: 7.5%;
+        height: 7.5%;
+        margin-left: 2%;
+        margin-top: 0.3rem;
+    }
+    .searched{
+        width: 100vw;
+        margin-left: 2%;
+        font-size: 1.2rem;
+    }
+    /* .looked{
+        position: relative;
+        width: 3%;
+        height: 3%;
+        right: 0%;
+        color: white;
+    } */
+    .main{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+    }
+  
+    .upcoming1{
+        width: 33%;
+        display: inline;
+        margin-left: 1%;
+    }
+    .upcomingdisc{
+        width: 30%;
+        display: inline;
+        margin-left: 1%;
+    }
+    .upcomingfall{
+        width: 100%;
+       display: inline;
+    }
+
+    .upcominglistd{
+       width: 100%;
+       height: 100%;
+        display: inline;
+        padding-left: 0.3rem;
+    }
+    .all{
+        display: flex;
+        
+    }
+    .upcomingfall1{
+        width:99%;
+        position: relative;
+        display: block;
+        white-space: nowrap;
+    }
+    .search{
+        display: none;
+    }
+    /* .class{
+        position: relative;
+       background-color: red;
+        line-height: 0px;
+    } */
+    .class{
+        line-height: 0px;
+    ;
+    }
+    .lookicon{
+    }
+    .look{
+       display:block;
+      position: relative;
+      left: 36%;
+      margin-top: 1.5rem;
+    }
+    
+  }
