@@ -48,12 +48,12 @@ const Discover = ()=>{
 {
           show? <div className={main.sidebar}>
             <p>My Account</p>
-            <p>Home</p>
-         <p>Movies</p>
+            <p onClick={()=>navigate('/mainpage')}>Home</p>
+         <p onClick={()=>navigate('/movies')}>Movies</p>
          <p onClick={()=>navigate('/tvshows')}>Tv shows</p>
          <p>Discover</p>
-         <p> Trending</p>
-         <p>Rate us</p>
+         
+        
        
        </div>:null
         }
@@ -73,9 +73,9 @@ const Discover = ()=>{
 {     
        <div className={main.rest}>
         <div>
-          <img src={'https://image.tmdb.org/t/p/w500/'+`${home.backdrop_path}`} className={main.cover}/>
+          <img src={`https://image.tmdb.org/t/p/w500/${home.backdrop_path}`} className={main.cover}  alt="non"/>
           <div  className={main.coverdetails}>
-          {/* <h1 className={main.covertitle}> {home.title}</h1> */}
+          <h1 className={main.covertitle}> {home.title}</h1>
           </div>
 
 
@@ -84,7 +84,7 @@ const Discover = ()=>{
       <div className={main.upcomingd} > 
         {discmovie && discmovie.map((find)=>(
           <div key={find.id} className={main.upcominglistd}> 
-        <img src={'https://image.tmdb.org/t/p/w500/'+`${find.backdrop_path}`} className={main.upcomingdisc} />
+        <img src={`https://image.tmdb.org/t/p/w500/${find.backdrop_path}`} className={main.upcomingdisc}  alt="non"/>
           {/* <p>{later.title}</p> */}
         </div>
         ))}
@@ -94,7 +94,7 @@ const Discover = ()=>{
       <div className={main.upcomingd} > 
         {disctv && disctv.map((look)=>(
           <div key={look.id} className={main.upcominglistd}> 
-        <img src={'https://image.tmdb.org/t/p/w500/'+`${look.backdrop_path}`} className={main.upcomingdisc}/>
+        <img src={`https://image.tmdb.org/t/p/w500/${look.backdrop_path}`} className={main.upcomingdisc}  alt="non"/>
           {/* <p>{later.title}</p> */}
         </div>
         ))}

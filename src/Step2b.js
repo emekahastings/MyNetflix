@@ -10,10 +10,8 @@ import check from './check.png'
 import whitenetflixlogo from './whitenetflixlogo.png'
 import Questionswhite  from './Questionswhite'
 import Step3 from './step3'
-import { auth } from "./Firebase.config";
-import { signOut } from "firebase/auth";
-
-import { useState } from 'react'
+// import { auth } from "./Firebase.config";
+// import { signOut } from "firebase/auth";
 
    
   
@@ -22,10 +20,10 @@ const Step2b= ()=>{
 
   const navigate= useNavigate()
 
-  const logout= async()=>{
-    await signOut(auth)
+//   const logout= async()=>{
+//     await signOut(auth)
 
-}
+// }
 
     function mobileChange(event){
       if (event.target.classList.contains ("steps_mobile__3US8B")){
@@ -42,8 +40,8 @@ const Step2b= ()=>{
     return (
     <div>
   <div className={steps.first}>
-        <img src={whitenetflixlogo} className={steps.logo} />
-        <p className={steps.firstp} onClick={()=>navigate('/signout')}>Sign Out</p>
+        <img src={whitenetflixlogo} className={steps.logo} alt='lol' />
+        <p className={steps.firstp}  onClick={()=>navigate('/signout')}>Sign Out</p>
         </div>
         <div className={steps.width}>
         <div className={steps.choose}>
@@ -53,9 +51,9 @@ const Step2b= ()=>{
 
         <div classname={steps.bullets}>
      
-        <div className={steps.a2}> <img src={check} className={steps.checks2} /> <div classname={steps.thirdp}>  Watch all you want, ad free.</div> </div> < br />
-    <div className={steps.a2}><img src={check} className={steps.checks2} /> <div classname={steps.thirdp}>Recommendations just for you</div> </div> < br />
-     <div className={steps.a2}><img src={check} className={steps.checks2} /> <div classname={steps.thirdp}>Change or cancel your plan anytime.</div></div>  < br />
+        <div className={steps.a2}> <img src={check} className={steps.checks2} alt='none' /> <div classname={steps.thirdp}>  Watch all you want, ad free.</div> </div> < br />
+    <div className={steps.a2}><img src={check} className={steps.checks2} alt='none'/> <div classname={steps.thirdp}>Recommendations just for you</div> </div> < br />
+     <div className={steps.a2}><img src={check} className={steps.checks2}alt='none' /> <div classname={steps.thirdp}>Change or cancel your plan anytime.</div></div>  < br />
         </div>
 
         

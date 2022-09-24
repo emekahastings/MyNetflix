@@ -12,7 +12,7 @@ const Step3= ()=>{
     return (
           <div>
   <div className={steps.first}>
-        <img src={whitenetflixlogo} className={steps.logo} />
+        <img src={whitenetflixlogo} className={steps.logo} alt='lol'/>
         <p className={steps.firstp} onClick={()=>navigate('/signout')}>Sign Out</p>
         </div>
 

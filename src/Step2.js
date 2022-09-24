@@ -9,7 +9,7 @@ import steps from './steps.module.css'
 import check from './check.png'
 import whitenetflixlogo from './whitenetflixlogo.png'
 import Questionswhite  from './Questionswhite'
-import { useState } from 'react'
+
 
 const Step2b= ()=>{
     function mobileChange(event){

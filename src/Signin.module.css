@@ -95,6 +95,16 @@ body{
     z-index: 1000;
     opacity: calc(0.8);
 }
+.bold{
+    position: relative;
+}
+.msg{
+    color: red;
+    font-size: 1.1rem;
+    padding-left: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .finale{
     padding-top: 0.2rem;
     padding-bottom: 1rem;
@@ -190,6 +200,11 @@ body{
 .questions{
     margin-left: 7%;
 }
+ .msg{
+    position: fixed;
+   top: 24%;
+   font-weight: 500;
+ }
 .end{
     display: flex;
     margin-left: 7%;

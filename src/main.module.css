@@ -43,8 +43,9 @@ h1{color:white}
 }
 
 .covertitle{
-  font-size: 3.5rem;
-  color: red;
+  font-size: 1.5rem;
+  color: white;
+  display: none;
 }
 .coveroverview{
    color:white
@@ -162,6 +163,9 @@ h1{color:white}
         background-color: black;
         width: 100vw;
         height: 100vh;
+    }
+    .covertitle{
+        display:none;
     }
     .ham{
         display: block;

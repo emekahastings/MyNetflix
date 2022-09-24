@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Signin from './SignIn';
 import Signout from './Signout'
 import Step2a from './Step2a'
@@ -10,7 +10,7 @@ import Step3 from './step3';
 // import Step3 from './step3'
 import Home from './Home'
 // import No from './No'
-import Soon from './Soon'
+
 import { Route, Routes, Outlet} from 'react-router-dom'
 import Main from './Main';
 import Tv from './Tvshows';
@@ -31,6 +31,7 @@ return(
   <Route path="signin" element={<Signin />}></Route>
   <Route path="signin/mainpage" element={<Main />}></Route>
   <Route path="signin/step1b" element={<Step1b />}></Route>
+  <Route path="step1b/step2a" element={<Step2a />}></Route>
 
   
   <Route path="signup" element={<Step1a />}/> 

@@ -1,12 +1,11 @@
 import React from 'react'
 import netflixcover from './netflixcover copy.jpg'
-import netflixlogo from './netflixlogo copy.jpg'
+import netflixlogo from './sharpnetflixlogo.png'
 import tv from './img2b.png'; 
 import kids from './img3.png'
 import phone from './img2a.jpg'
 import { Route, Routes, Link} from 'react-router-dom'
 import Step1a from './Step1a';
-import Soon from './Soon';
 import { useState } from 'react';
 import Signin from './SignIn';
 
@@ -26,11 +25,11 @@ const Home= (props)=>{
  console.log('value is:', event.target.value)
 
  }
- function click(event){
-  event.preventDefault()
-  console.log('You clicked', email)
+//  function click(event){
+//   event.preventDefault()
+//   console.log('You clicked', email)
 
- }
+//  }
 
  
  

@@ -1,9 +1,9 @@
 import React from "react";
-import { auth } from "./Firebase.config";
-import { signOut } from "firebase/auth";
+// import { auth } from "./Firebase.config";
+// import { signOut } from "firebase/auth";
 import steps from './steps.module.css'
 import whitenetflixlogo from './whitenetflixlogo.png'
-import { Link, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import Questionswhite from "./Questionswhite";
 
 
@@ -11,14 +11,14 @@ const Signout= ()=>{
 
     const navigate= useNavigate()
 
-    const logout= async()=>{
-        await signOut(auth)
+    // const logout= async()=>{
+    //     await signOut(auth)
 
-    }
+    // }
 return(
     <div>
  <div className={steps.first}>
-        <img src={whitenetflixlogo} className={steps.logo} />
+        <img src={whitenetflixlogo} className={steps.logo} alt="lol" />
         <nav className={steps.signincover}> 
                    <p className={steps.signin}>Sign In</p>  
                    </nav>
@@ -32,7 +32,7 @@ return(
         You will be directed to the home page if you still want to sign out
         </p>
         <div className={steps.gonow}>
-            <div className={steps.go} onClick={()=>navigate('/')}>Go now</div> 
+            <div className={steps.go}  onClick={()=>navigate('/')}>Go now</div> 
         </div>
      </div>
 

@@ -113,11 +113,12 @@ background-color: red;
 }
 .texts2{
   padding-top: 7rem;
+  padding-left: 8%;
 }
 .texta{
   font-size: 3rem;
   color: white;
-  padding-left: 3rem;
+  padding-left: 20%;
 }
 .texta3{
   font-size: 3rem;
@@ -126,6 +127,7 @@ background-color: red;
 }
 .texta5{
   font-size: 3rem;
+  padding-left: 12%;
   color: white;
   
 }
@@ -139,7 +141,7 @@ background-color: red;
 }
 .texts1{
   padding-top: 3rem;
-  /* display: none; */
+  padding-left: 13%;
 }
 .kids{
   height: 60vh;
@@ -238,9 +240,8 @@ margin-left: 20%;
 .texta6{
   color: white;
   font-size: 3rem;
- /* padding-left: 30%; */
-text-align: center;
- 
+ padding-left: 33%;
+
 }
 .plus{
   float: right;
@@ -379,7 +380,7 @@ bottom: 0.5rem;
       width: 35%;
        padding: 7px;
        font-size: 1.3rem;
-       margin-top: 0.5rem;
+       margin-top: 0rem;
        left: 30%;
     }
     
@@ -398,20 +399,23 @@ bottom: 0.5rem;
     }
     .texta{
       font-size: 1.7rem;
-     margin-left: 7%;
+     margin-left: 0%;
 
     }
     .texta1{
-      font-size: 1.7rem;
+      font-size: 1.69rem;
 
     }
     .texta2{
-      font-size: 1.7rem;
+      font-size: 1.69rem;
+      position: relative;
+     right: -5%;
      
     }
     .texts2{
       position: relative;
-      right: 12%;
+     right: 17%;
+  
     }
     .texta3{
       font-size: 1.7rem;
@@ -420,10 +424,12 @@ bottom: 0.5rem;
     .texta5{
       font-size: 1.7rem;
      position: relative;
-     left: 13%;
+     left: 5%;
     }
     .texts1{
       padding-top: 3rem;
+      position: relative;
+     right: 12%;
       /* display: none; */
     }
   
@@ -438,7 +444,7 @@ bottom: 0.5rem;
       width: 100vw;
       font-size: 1.3rem;
     position: relative;
-   margin-left: -10%;
+   margin-left: -9.3%;
   
     }
     .textb3{
@@ -451,16 +457,16 @@ bottom: 0.5rem;
     }
     .textb2{
       width: 100vw;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       font-family: 100;
     position: relative;
-    right: 6%;
+    right: 7%;
     }
     .textb5{
-      width: 100vw;
+      width: 98vw;
       font-size: 1.5rem;
-      margin-left: 0.25rem;
-      margin-right: -10rem;
+     
+      margin-right: 0.5rem;
     position: relative;
    right: 18%;
   
@@ -484,7 +490,9 @@ bottom: 0.5rem;
     .third{
       display: none;
       width: 100vw;
-      height: 60vh;
+      height: 40vh;
+      position: relative;
+      bottom: 30%;
       background-color: black;
      padding: 2rem;
     }
@@ -513,7 +521,7 @@ bottom: 0.5rem;
      font-size: 1.7rem;
      position: relative;     
      top: 1.5rem;
-    left: 6.5%;
+     padding-left: 10%;
     }
     .q{
       font-size: 1.25rem;
@@ -574,6 +582,9 @@ bottom: 0.5rem;
     }
     .end3, .end4{
       display: none;
+    }
+    .deta{
+      font-size: 1.2rem;
     }
 
 }

@@ -61,12 +61,12 @@ useEffect(()=>{
 {
           show? <div className={main.sidebar}>
             <p>My Account</p>
-            <p>Home</p>
+            <p onClick={()=>navigate('/mainpage')}>Home</p>
          <p onClick={()=>navigate('/movies')}>Movies</p>
          <p>Tv shows</p>
-         <p>Discover</p>
+         <p onClick={()=>navigate('/discover')}>Discover</p>
          <p> Trending</p>
-         <p>Rate us</p>
+       
        
        </div>:null
         }
@@ -85,7 +85,7 @@ useEffect(()=>{
 
     {
         <div>
-          <img src={'https://image.tmdb.org/t/p/w500//rIe3PnM6S7IBUmvNwDkBMX0i9EZ.jpg'} className={main.cover}/>
+          <img src={'https://image.tmdb.org/t/p/w500//rIe3PnM6S7IBUmvNwDkBMX0i9EZ.jpg'} className={main.cover}  alt="non"/>
           <div  className={main.coverdetails}>
           <h1 className={main.covertitle}> {home.title}</h1>
           </div>
@@ -94,7 +94,7 @@ useEffect(()=>{
           <div className={main.upcoming} > 
         {poptvshows && poptvshows.map((series)=>(
           <div key={series.id} className={main.upcominglist}> 
-        <img src={'https://image.tmdb.org/t/p/w500/'+`${series.backdrop_path}`} className={main.upcoming1}/>
+        <img src={`https://image.tmdb.org/t/p/w500/${series.backdrop_path}`} className={main.upcoming1}  alt="non"/>
         </div>
         ))}
       </div>
@@ -103,7 +103,7 @@ useEffect(()=>{
       <div className={main.upcoming} > 
         {toptvshows && toptvshows.map((rated)=>(
           <div key={rated.id} className={main.upcominglist}> 
-        <img src={'https://image.tmdb.org/t/p/w500/'+`${rated.backdrop_path}`} className={main.upcoming1}/>
+        <img src={`https://image.tmdb.org/t/p/w500/${rated.backdrop_path}`} className={main.upcoming1}  alt="non"/>
           {/* <p>{later.title}</p> */}
         </div>
         ))}
@@ -113,7 +113,7 @@ useEffect(()=>{
       <div className={main.upcoming} > 
         {airing && airing.map((today)=>(
           <div key={today.id} className={main.upcominglist}> 
-        <img src={'https://image.tmdb.org/t/p/w500/'+`${today.backdrop_path}`} className={main.upcoming1}/>
+        <img src={`https://image.tmdb.org/t/p/w500/${today.backdrop_path}`} className={main.upcoming1}  alt="non"/>
           {/* <p>{later.title}</p> */}
         </div>
         ))}
@@ -123,7 +123,7 @@ useEffect(()=>{
       <div className={main.upcoming} > 
         {latest && latest.map((newest)=>(
           <div key={newest.id} className={main.upcominglist}> 
-        <img src={'https://image.tmdb.org/t/p/w500/'+`${newest.backdrop_path}`} className={main.upcoming1}/>
+        <img src={`https://image.tmdb.org/t/p/w500/${newest.backdrop_path}`} className={main.upcoming1}  alt="non"/>
           {/* <p>{later.title}</p> */}
         </div>
         ))}

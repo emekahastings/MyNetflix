@@ -1,6 +1,5 @@
 import React,{useState, useEffect} from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Routes, route, link } from "react-router"
 import main from './main.module.css'
 import {useNavigate} from 'react-router-dom'
 import netflixlogo from './netflixlogo copy.jpg'
@@ -14,7 +13,6 @@ const Main = ()=>{
     const [trendingmv, settrendingmv]= useState([])
     const [rectv, setrectv]= useState([])
     const [recmv, setrecmv]= useState([])
-    const[discover, setdiscover]= useState([])
     const [show, setshow]= useState()
   
   
@@ -75,7 +73,7 @@ useEffect(()=>{
          <p  onClick={()=>navigate('/tvshows')}>Tv shows</p>
          <p onClick={()=>navigate('/discover')}>Discover</p>
          <p onClick={()=>navigate('/search')}> Search</p>
-         <p>Rate us</p>
+         
        
        </div>:null
         }
@@ -93,10 +91,10 @@ useEffect(()=>{
 </div>
 {
       <div>
-        <img src={'https://image.tmdb.org/t/p/w500/6MQmtWk4cFwSDyNvIgoJRBIHUT3.jpg'} className={main.cover}/>
+        <img src={'https://image.tmdb.org/t/p/w500/6MQmtWk4cFwSDyNvIgoJRBIHUT3.jpg'} className={main.cover}  alt="non"/>
         <div  className={main.coverdetails}>
-        {/* <h1 className={main.covertitle}> {home.title}</h1>
-        <p className={main.coveroverview}>{home.overview}</p>
+        <h1 className={main.covertitle}> {home.title}</h1>
+        {/* <p className={main.coveroverview}>{home.overview}</p>
         <h1 className={main.coverruntime}>{home.runtime} mins</h1> */}
          </div>
 
@@ -105,7 +103,7 @@ useEffect(()=>{
       <div className={main.upcoming} > 
         {trendingmv && trendingmv.map((all)=>(
           <div key={all.id} className={main.upcominglist}> 
-        <img src={'https://image.tmdb.org/t/p/w500/'+`${all.backdrop_path}`} className={main.upcoming1}/>
+        <img src={`https://image.tmdb.org/t/p/w500/${all.backdrop_path}`} className={main.upcoming1}  alt="non"/>
           {/* <p>{later.title}</p> */}
         </div>
         ))}
@@ -115,7 +113,7 @@ useEffect(()=>{
       <div className={main.upcoming} > 
         {trendingtv&& trendingtv.map((wow)=>(
           <div key={wow.id} className={main.upcominglist}> 
-        <img src={'https://image.tmdb.org/t/p/w500/'+`${wow.backdrop_path}`} className={main.upcoming1}/>
+        <img src={`https://image.tmdb.org/t/p/w500/${wow.backdrop_path}`} className={main.upcoming1}  alt="non"/>
           {/* <p>{later.title}</p> */}
         </div>
         ))}
@@ -125,17 +123,17 @@ useEffect(()=>{
       <div className={main.upcoming} > 
         {rectv&& rectv.map((oya)=>(
           <div key={oya.id} className={main.upcominglist}> 
-        <img src={'https://image.tmdb.org/t/p/w500/'+`${oya.backdrop_path}`} className={main.upcoming1}/>
+        <img src={`https://image.tmdb.org/t/p/w500/${oya.backdrop_path}`} className={main.upcoming1}  alt="non"/>
           {/* <p>{later.title}</p> */}
         </div>
         ))}
       </div>
 
-      <div className={main.desc}><h2>You may also like</h2></div> 
+      <div className={main.desc}><h2>movies may also like</h2></div> 
       <div className={main.upcoming} > 
         {recmv&& recmv.map((leggo)=>(
           <div key={leggo.id} className={main.upcominglist}> 
-        <img src={'https://image.tmdb.org/t/p/w500/'+`${leggo.backdrop_path}`} className={main.upcoming1}/>
+        <img src={`https://image.tmdb.org/t/p/w500/${leggo.backdrop_path}`} className={main.upcoming1}  alt="non"/>
           {/* <p>{later.title}</p> */}
         </div>
         ))}

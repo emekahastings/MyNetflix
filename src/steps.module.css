@@ -486,9 +486,7 @@ body{
         margin-top: 2rem;
         left: 40.5%;
     }
-    /* .pricemove{
-        display: none;
-    } */
+  
     .si3{
         background-color: red;
         width: 25%;
@@ -594,6 +592,7 @@ body{
       }
       .firstp{
         left: 45%;
+        font-size: 1.4rem;
     }
     .circle{
         width: 15%;
@@ -616,7 +615,7 @@ body{
      
     }
     .finisha{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
     .personal{
         width: 80%;
@@ -653,7 +652,7 @@ body{
     .offers{
         font-size: 1.3rem;
         text-align: left;
-        padding-left: 8%;
+        padding-left: 10.5%;
     }
     .paper{
         width: 95%;
@@ -701,7 +700,7 @@ body{
         line-height: 40px;
     }
     .secondp{
-        margin-top: 5rem;
+        margin-top: 2rem;
         font-weight: 700;
         font-size: 1.5rem;
     }
@@ -790,7 +789,7 @@ body{
     }
     .g1a, .g1b, .g1c{
         font-size: 1.3rem;
-        margin-left: 4rem;
+        margin-left: 3.5rem;
     }
     .g2a, .g2b, .g2c{
         font-size: 1.3rem;
@@ -858,25 +857,31 @@ body{
         left: 5%;
             }
             .leave{
-              font-size: 2.5rem;
+              font-size: 1.7rem;
               font-weight: 400;
     
             }
             .just{
                 width: 90%;
-                font-size: 1.3rem;
+                font-size: 1.1rem;
                 margin-bottom: 6%;
                
+            }
+            .gadgets{
+                width: 75%;
+              margin-top: 10%;
+           
+                padding-left: 11%;
             }
           .signincover{
             margin-right: 1rem;
 
           }
             .go{
-                width: 90%;
+                width: 83%;
                 font-size: 1.3rem;
                    padding: 13px;
-                   margin-right: 5%;
+                   margin-right: 10%;
             }
             .three{
                 
@@ -891,11 +896,11 @@ body{
                 /* margin-left: 1rem; */
             }
             .sub{
-                width: 95%;
-                margin-right: 0%;
+                width: 100%;
+                position: relative;
                 font-size: 1.4rem;
                 font-weight: 400;
-                padding-left: 0%;
+                right: 7%;
             }
             .lock{
                 margin-left: 1rem;

@@ -1,7 +1,7 @@
 import React from 'react'
 import steps from './steps.module.css'
 import devices from"./devices.jpg"
-import { Route, Routes, Link, Outlet, useNavigate} from 'react-router-dom'
+import { Route, Routes, Link, useNavigate} from 'react-router-dom'
 import Step1b from './Step1b'
 import whitenetflixlogo from './sharpnetflixlogo.png'
 import Questionswhite from './Questionswhite'
@@ -11,12 +11,12 @@ const Step1a= ()=>{
     return (
     <div>
         <div className={steps.first}>
-        <img src={whitenetflixlogo} className={steps.logo} />
+        <img src={whitenetflixlogo} className={steps.logo} alt="lol" />
         <p className={steps.firstp} onClick={()=>navigate('/signin')}>Sign In</p>
         </div>
         <div className={steps.second}>
         <div>
-   <img src={devices} className={steps.gadgets}/>
+   <img src={devices} className={steps.gadgets}  alt="lol"/>
    <p className={steps.secondp}>Step <b>1</b> out of 3</p>
     </div>
     <h1 className={steps.finisha}>Finish Settting up your <br /> account</h1>

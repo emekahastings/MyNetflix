@@ -1,8 +1,7 @@
 import React from 'react'
-import steps from './steps.module.css'
 import styles from './Signin.module.css'
+import steps from './steps.module.css'
 import { auth } from './Firebase.config'
-import devices from"./devices.jpg"
 import Step2a from './Step2a'
 import { Route, Routes, Link, Outlet, useNavigate} from 'react-router-dom'
 import { createUserWithEmailAndPassword } from 'firebase/auth'
@@ -28,24 +27,28 @@ const navigate= useNavigate()
      }
     
      catch(error){
-     seterror(error.message)
+      seterror(
+        {
+        message: 'Inavlid Emai/Password',
+      })
      }
   }
 
     return (
     <div>
         <div className={steps.first}>
-        <img src={whitenetflixlogo} className={steps.logo} />
+        <img src={whitenetflixlogo} className={steps.logo}  alt="lol"/>
         <p className={steps.firstp} onClick={()=>navigate('/signin')}>Sign In</p>
         </div>
         <div className={steps.second}>
         <div>
    
-   <div className={steps. devices}>
+   <div className={steps.devices}>
  
    </div>
    <p className={steps.secondp}>Step <b>1</b> out of 3</p>
     </div>
+    <p className={styles.msg}>{error.message}</p>
     <h1 className={steps.finish}>Create a password to <br /> start your membership</h1>
 
     <div className={steps.paper}>

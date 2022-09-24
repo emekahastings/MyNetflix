@@ -1,36 +1,45 @@
 // import './Signin.css'
-import React, { useEffect } from 'react'
+import React from 'react'
 import { auth } from './Firebase.config'
-import Step1 from './Step1a'
 import netflixcover from './netflixcover copy.jpg'
 import netflixlogo from './netflixlogo copy.jpg'
-import {signInWithEmailAndPassword, onAuthStateChanged, updateCurrentUser } from 'firebase/auth'
+import {signInWithEmailAndPassword} from 'firebase/auth'
 import styles from './Signin.module.css'
 import { useState } from 'react'
-import { Route, Routes, Link, useNavigate} from 'react-router-dom'
+import { useNavigate} from 'react-router-dom'
 
 
 
 const Signin= ()=>{    
 
   const navigate= useNavigate()
-  let [user, setuser]= useState()
   let [lemail, setlemail]= useState()
   let [lpassword, setlpassword]= useState()
-
+  let [lerror, setlerror]= useState({})
+ 
   let login = async()=>{
     try{
-     let user= await signInWithEmailAndPassword(auth, lemail, lpassword)
+     let response= await signInWithEmailAndPassword(auth, lemail, lpassword)
      navigate('./mainpage')
-     console.log(user)
+     console.log(response)
+    //  if(response.hasOwnProperty('message')){
+    //   console.log(response.message)
+    //  }
+    //  if(response.hasOwnProperty('user')){
+    //   console.log('sharp')
+    //  }
+  
+    }
+    catch(error){
+    setlerror(
+      {
+      message: 'Invalid Username/Password',
+    })
     }
    
-    catch(error){
-     alert('Incorrect username or password')
-    }
     
  }
-
+ 
     return (        
       <div>
 
@@ -44,26 +53,31 @@ const Signin= ()=>{
         <div className={styles.box}>
         <img src={netflixlogo} className={styles.blogo} alt="logo" />
        
+        <form >
        <nav>
        <img src={netflixlogo} className={styles.blogo} alt="logo" />
-      <h2 className={styles.bold} >Sign in</h2> <br /> 
-        </nav>
+      <h2 className={styles.bold} >Sign in</h2> <br />
+        </nav> 
 
-         
+           
+      <p className={styles.msg}>{lerror.message}</p>
+       
+          
           <input className={styles.email} type='text' placeholder="Email or Phone Number" onChange={(event)=>{setlemail(event.target.value)}} /> <br /> 
 
           <input className={styles.password} type='password' placeholder="Password" onChange={(event)=>{setlpassword(event.target.value)}} />
-
+        
 
           <div className={styles.sign}>
             <nav>
-            <Link to="./step1"><h3 className={styles.si} onClick={login}>Sign in</h3> </Link>
+            <h3 className={styles.si} onClick={login}>Sign in</h3> 
             </nav>
           </div>
-
-          <Routes>
+        
+        </form>
+          {/* <Routes>
         <Route path='./Step1' element={<Step1 />}></Route>
-       </Routes>
+       </Routes> */}
 
           <div className={styles.check}>
            <p className={styles.me}> <input type={'checkbox'}   /> Remember me</p>
