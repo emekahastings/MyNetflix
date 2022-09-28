@@ -40,7 +40,7 @@ useEffect(()=>{
   }, [])
 
   useEffect(()=>{
-    axios.get('https://api.themoviedb.org/3/tv/airing_today?api_key=384a26b16e56aa6177f73139defe1b77&language=en-US&page=1')
+    axios.get('https://api.themoviedb.org/3/tv/airing_today?api_key=384a26b16e56aa6177f73139defe1b77&language=en-US&page=2')
     .then(response =>{
       setairing(response.data.results)
       console.log(response.data)    })

@@ -145,13 +145,13 @@ h1{color:white}
     background-color: black;
   }
   .search{
-    background-color: white;
+    background-color: #ffffff;
    height: 10%;
    margin-top: 1.5rem;
     margin-left:15%;
   }
 
-  @media screen and (max-width:450px){
+  @media screen and (max-width:600px){
     /* html{
         overflow-x: hidden;
     }
@@ -274,4 +274,253 @@ h1{color:white}
       margin-top: 1.5rem;
     }
     
+  }
+  @media screen and (min-width:600px) and (max-width:900px){
+
+     /* html{
+        overflow-x: hidden;
+    }
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    } */
+    .full{
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+    }
+    .covertitle{
+        display:none;
+    }
+    .ham{
+        display: none;
+        color: white;
+        padding-top: 5%;
+        height: 22px;
+    }
+    .logo{
+        width: 25%;
+    }
+    .points{
+        display: flex;
+        font-size: 1.3rem;
+        padding-left: 3%;
+    }
+    .firstp{
+        left: 40%;
+        padding: 1.4%;
+    }
+    .sidebar{
+        display: none;
+        width: 45vw;
+    }
+    .sidebar>p{
+        display: none;
+        margin-left: 1rem;
+    }
+    .cover{
+        width: 100vw;
+    }
+    .shortlogo{
+        width: 10%;
+    }
+    .back{
+        color: red;
+        width: 7.5%;
+        height: 7.5%;
+        margin-left: 2%;
+        margin-top: 0.3rem;
+    }
+    .searched{
+        width: 100vw;
+        margin-left: 2%;
+        font-size: 1.2rem;
+    }
+
+    .main{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+    }
+  
+    .upcoming1{
+        width: 33%;
+        display: inline;
+        margin-left: 1%;
+    }
+    .upcomingdisc{
+        width: 30%;
+        display: inline;
+        margin-left: 1%;
+    }
+    .upcomingfall{
+        width: 100%;
+       display: inline;
+    }
+
+    .upcominglistd{
+       width: 100%;
+       height: 100%;
+        display: inline;
+        padding-left: 0.3rem;
+    }
+    .all{
+        display: flex;
+        
+    }
+    .upcomingfall1{
+        width:99%;
+        position: relative;
+        display: block;
+        white-space: nowrap;
+    }
+    .search{
+        display: block;
+        
+        position: relative;
+        right: 12%;
+    }
+    /* .class{
+        position: relative;
+       background-color: red;
+        line-height: 0px;
+    } */
+    .class{
+        line-height: 0px;
+    ;
+    }
+    .lookicon{
+    }
+    .look{
+       display:block;
+      position: relative;
+      left: 6%;
+      margin-top: 1.5rem;
+    }
+
+  }
+  @media screen and (min-width:300px) and (max-width:380px){
+     /* html{
+        overflow-x: hidden;
+    }
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    } */
+    .full{
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+    }
+    .covertitle{
+        display:none;
+    }
+    .ham{
+        display: block;
+        color: white;
+        padding-top: 5%;
+        height: 22px;
+    }
+    .logo{
+        width: 25%;
+    }
+    .points{
+        display: none;
+    }
+    .firstp{
+        left: 36%;
+        font-size: 1.1rem;
+        padding: 1%;
+    }
+    .sidebar{
+        display: block;
+        width: 45vw;
+    }
+    .sidebar>p{
+        display: block;
+        margin-left: 1rem;
+    }
+    .cover{
+        width: 100vw;
+    }
+    .shortlogo{
+        width: 10%;
+    }
+    .back{
+        color: red;
+        width: 7.5%;
+        height: 7.5%;
+        margin-left: 2%;
+        margin-top: 0.3rem;
+    }
+    .searched{
+        width: 100vw;
+        margin-left: 2%;
+        font-size: 1.2rem;
+    }
+    /* .looked{
+        position: relative;
+        width: 3%;
+        height: 3%;
+        right: 0%;
+        color: white;
+    } */
+    .main{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+    }
+  
+    .upcoming1{
+        width: 33%;
+        display: inline;
+        margin-left: 1%;
+    }
+    .upcomingdisc{
+        width: 30%;
+        display: inline;
+        margin-left: 1%;
+    }
+    .upcomingfall{
+        width: 100%;
+       display: inline;
+    }
+
+    .upcominglistd{
+       width: 100%;
+       height: 100%;
+        display: inline;
+        padding-left: 0.3rem;
+    }
+    .all{
+        display: flex;
+        
+    }
+    .upcomingfall1{
+        width:99%;
+        position: relative;
+        display: block;
+        white-space: nowrap;
+    }
+    .search{
+        display: none;
+    }
+    /* .class{
+        position: relative;
+       background-color: red;
+        line-height: 0px;
+    } */
+    .class{
+        line-height: 0px;
+    ;
+    }
+    .lookicon{
+    }
+    .look{
+       display:block;
+      position: relative;
+      left: 29%;
+      margin-top: 1.3rem;
+    }
+
   }

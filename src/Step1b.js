@@ -20,6 +20,10 @@ const navigate= useNavigate()
 
   
   let register = async()=>{
+    let email= document.getElementsByClassName('email')
+    if(email.value===''){
+      alert('empty')
+    }
      try{
       let user= await createUserWithEmailAndPassword(auth, remail, rpassword)
       console.log(user)
@@ -27,9 +31,10 @@ const navigate= useNavigate()
      }
     
      catch(error){
+     
       seterror(
         {
-        message: 'Inavlid Emai/Password',
+        message: 'Invalid Emai/Password',
       })
      }
   }
@@ -58,6 +63,7 @@ const navigate= useNavigate()
     
     <input className={steps.email} type='text' placeholder="Email or Phone Number" onChange={(event)=>{
       setremail(event.target.value)
+     
                                                                                                    }} /> <br /> 
 
 <input className={steps.password} type='password' placeholder="Password"  onChange={(event)=>{

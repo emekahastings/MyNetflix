@@ -20,7 +20,7 @@ return(
  <div className={steps.first}>
         <img src={whitenetflixlogo} className={steps.logo} alt="lol" />
         <nav className={steps.signincover}> 
-                   <p className={steps.signin}>Sign In</p>  
+                   <p className={steps.signin} onClick={()=>navigate('signin')}>Sign In</p>  
                    </nav>
         </div>
 

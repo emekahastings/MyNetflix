@@ -14,7 +14,16 @@ const Main = ()=>{
     const [rectv, setrectv]= useState([])
     const [recmv, setrecmv]= useState([])
     const [show, setshow]= useState()
-  
+    const [search, setsearch] =useState([])
+
+    function se(event){ 
+     let searchparam= event.target.value
+        axios.get(`https://api.themoviedb.org/3/search/movie?api_key=384a26b16e56aa6177f73139defe1b77&language=en-US&page=1&query=${searchparam}`)
+        .then(response =>{
+          setsearch(response.data.results)
+      
+          console.log(response.data.results)    })
+ }
   
 
 useEffect(()=>{
@@ -41,14 +50,14 @@ useEffect(()=>{
 }, [])
 
 useEffect(()=>{
-  axios.get('https://api.themoviedb.org/3/tv/1400/recommendations?api_key=384a26b16e56aa6177f73139defe1b77&language=en-US&page=1')
+  axios.get('https://api.themoviedb.org/3/tv/1400/recommendations?api_key=384a26b16e56aa6177f73139defe1b77&language=en-US&page=2')
   .then(response =>{
     setrectv(response.data.results)
     console.log(response.data.results)    })
 }, [])
 
 useEffect(()=>{
-  axios.get('https://api.themoviedb.org/3/movie/400/recommendations?api_key=384a26b16e56aa6177f73139defe1b77&language=en-US&page=1')
+  axios.get('https://api.themoviedb.org/3/movie/400/recommendations?api_key=384a26b16e56aa6177f73139defe1b77&language=en-US&page=2')
   .then(response =>{
     setrecmv(response.data.results)
     console.log(response.data.results)    })
@@ -81,11 +90,11 @@ useEffect(()=>{
     <img src={netflixlogo} className={main.logo} alt="non"  />
     <p className={main.points}> Home</p>
     <p className={main.points} onClick={()=>navigate('./movies')}>Movies</p>
-    <p className={main.points} onClick={()=>navigate('/tvshows')}>Tv shows</p>
+    <p className={main.points} onClick={()=>navigate('/tvshows')}>Tvshows</p>
     <p className={main.points} onClick={()=>navigate('/discover')}>Discover</p>
-    <p className={main.points}>Trending</p>
+    {/* <p className={main.points}   onClick={()=>navigate('/search')}>Search</p> */}
 
-<input type={"search"} className={main.search} placeholder={'Search...'} />
+<input type={"search"} className={main.search} placeholder={'Search...'} onChange={se} />
 <FontAwesomeIcon icon={faMagnifyingGlass}  className={main.look} onClick={()=>navigate('/search')} />
 <p className={main.firstp} onClick={()=>navigate('/signout')}>Sign Out</p>
 </div>
@@ -139,7 +148,22 @@ useEffect(()=>{
         ))}
       </div>
 
-    
+      <div className={main.desc}><h2> </h2></div>
+   
+
+      <div className={main.upcomingfall} > 
+        {search && search.map((seek)=>(
+          <div key={seek.id} className={main.upcominglist}> 
+   
+        <img src={`https://image.tmdb.org/t/p/w500/${seek.backdrop_path}`} className={main.upcomingfall1} alt='none'/>
+          {/* <p>{later.title}</p> */}
+            <div className={main.class}>
+             <h4 className={main.movie}>{seek.title}</h4>
+          
+            </div>
+       </div>
+        ))}
+    </div>
     
    
 

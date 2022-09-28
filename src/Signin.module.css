@@ -145,7 +145,7 @@ body{
     color: white;
     font-weight: 600;
   }
-@media screen and (max-width:450px){
+@media screen and (max-width:600px){
     html{
         overflow-x: hidden;
     }
@@ -217,4 +217,227 @@ body{
 }
   
 
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+  
+ .cover{
+    display: none;
+ }
+
+.first{
+    display: none;
+}
+
+.logo{
+    display: block;
+    width: 30%;
+    margin-top: 3%;
+}
+.bold{
+    margin-top: 35%;
+}
+.help{
+    padding-left: 22%;
+}
+
+.box{
+    display: block;
+    height: auto;
+    width: 100vw;
+    top: -20%;
+    background-color: black;
+    padding-bottom: 0rem;
+    position: absolute;
+    left: 0%;
+    z-index: 200;
+   filter: opacity(1);
+    
+}
+.final{
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+    background-color: black;
+    color: rgb(225, 223, 223);
+    font-size: 1rem;
+    position: relative;
+    top: 0%;
+    z-index: 1000;
+}
+.questions{
+    margin-left: 7%;
+}
+ .msg{
+    position: fixed;
+   top: 24%;
+   font-weight: 500;
+ }
+.end{
+    display: flex;
+    margin-left: 7%;
+}
+.end2, .end3{
+    padding-left: 2rem;
+}
+.end4{
+    display: none;
+}
+}
+@media screen and (min-width:300px) and (max-width:380px){
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+  
+ .cover{
+    display: none;
+ }
+
+.first{
+    display: none;
+}
+
+.logo{
+    display: block;
+    width: 30%;
+    margin-top: 3%;
+}
+.bold{
+    margin-top: 35%;
+}
+.help{
+    padding-left: 22%;
+}
+
+.box{
+    display: block;
+    height: auto;
+    width: 100vw;
+    top: -20%;
+    background-color: black;
+    padding-bottom: 0rem;
+    position: absolute;
+    left: 0%;
+    z-index: 200;
+   filter: opacity(1);
+    
+}
+.final{
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+    background-color: black;
+    color: rgb(225, 223, 223);
+    font-size: 1rem;
+    position: relative;
+    top: 0%;
+    z-index: 1000;
+}
+.questions{
+    margin-left: 7%;
+}
+ .msg{
+    position: fixed;
+   top: 24%;
+   font-weight: 500;
+ }
+.end{
+    display: flex;
+    margin-left: 7%;
+}
+.end2, .end3{
+    padding-left: 2rem;
+}
+.end4{
+    display: none;
+}
+}
+@media screen and (min-width:900px){
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+  
+ .cover{
+    display: none;
+ }
+
+.first{
+    display: none;
+}
+
+.logo{
+    display: block;
+    width: 30%;
+    margin-top: 3%;
+}
+.bold{
+    margin-top: 35%;
+    font-size: 4.7rem;
+}
+.help{
+    padding-left: 22%;
+}
+
+.box{
+    display: block;
+    height: auto;
+    width: 100vw;
+    top: -20%;
+    background-color: black;
+    padding-bottom: 0rem;
+    position: absolute;
+    left: 0%;
+    z-index: 200;
+   filter: opacity(1);
+    
+}
+.me, .help, .new{
+    font-size: 2.3rem;
+}
+.final{
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+    background-color: black;
+    color: rgb(225, 223, 223);
+    font-size: 1rem;
+    position: relative;
+    top: 0%;
+    z-index: 1000;
+}
+.questions{
+    margin-left: 7%;
+}
+ .msg{
+    position: fixed;
+   top: 24%;
+   font-weight: 500;
+ }
+.end{
+    display: flex;
+    margin-left: 7%;
+}
+.end2, .end3{
+    padding-left: 2rem;
+}
+.end4{
+    display: none;
+}
+.email, .password{
+    font-size: 2rem;
+}
+.si{
+    font-size: 2.3rem;
+}
 }

@@ -113,7 +113,7 @@ background-color: red;
 }
 .texts2{
   padding-top: 7rem;
-  padding-left: 8%;
+  padding-left: 8vw;
 }
 .texta{
   font-size: 3rem;
@@ -123,7 +123,7 @@ background-color: red;
 .texta3{
   font-size: 3rem;
   color: white;
-  padding-left: 3rem;
+  padding-left: 10%;
 }
 .texta5{
   font-size: 3rem;
@@ -132,7 +132,7 @@ background-color: red;
   
 }
 .texta2{
-  font-size: 3rem;
+  /* font-size: 3.5vw; */
   color: white;
   padding-left: 3rem;
 }
@@ -147,8 +147,11 @@ background-color: red;
   height: 60vh;
 }
 .tv{
+  width: 13%;
+  height: auto;
 display: block;
-margin-left: 20%;
+position: relative;
+left: 20vw;
 }
 .textb{
   font-size: 1.8rem;
@@ -158,10 +161,10 @@ margin-left: 20%;
 .textb3{
   font-size: 1.8rem;
   color: white;
-  padding-left: 3rem;
+  padding-left: 10%;
 }
 .textb2{
-  font-size: 1.8rem;
+  font-size: 2vw;
   color: white;
   padding-left: 3rem;
 }
@@ -321,7 +324,7 @@ bottom: 0.5rem;
  border-width: 0.6rem;
 }
 
-@media screen and (max-width:450px){
+@media screen and (min-width:300px) and (max-width:380px){
   html{
     overflow-x: hidden;
   }
@@ -330,7 +333,315 @@ bottom: 0.5rem;
     width: 100%;
   }
   .cover{
-     height: 60vh;
+     height: 55vh;
+   }
+   .logo{
+    width: 25%;
+  }
+  .signin{
+   margin-right: 1rem;
+  position: relative;
+  bottom: 0rem;
+  cursor: pointer;
+  }
+  .sign{
+    background-color: red;
+  }
+  .sign{
+    border-radius: 5px;
+       padding: 5px;
+    }
+    .intro{
+      margin-top: 3rem;
+      top: 3rem;
+      left: 0%;
+
+    }
+    .header{
+      width: 100vw;
+      display: flex;
+      position: absolute;
+      top: 0rem;
+    }
+    .one{
+       font-size: 1.2rem;
+       font-weight: 600;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .two{
+      font-size: 1.2rem;
+      line-height: 2px;
+    }
+    .twoa{
+      font-size: 1.1rem;
+    }
+    .twoc{
+      font-size: 1.2rem;
+    }
+   
+    .mail{
+      width: 80%;
+      padding: 10px;
+      position: relative;
+    }
+    .started{
+      width: 35%;
+       padding: 4px;
+       font-size: 1.3rem;
+       margin-top: 0rem;
+       left: 30%;
+    }
+    .mail1{
+      width: 40%;
+      padding: 2px;
+      color: red;
+    }
+    .started1{
+       width: 25%;
+       padding: 2px;
+    }
+    
+    .insert{
+      display: block;    
+    }
+    .second{
+      display: block;
+      width: 100vw;
+      background-color: black;
+     padding: 6rem;
+
+    }
+    .texts{
+      padding-top: 7rem;
+    }
+    .texta{
+      font-size: 6.5vw;
+     padding-left: 30vw;
+    
+
+    }
+    .texta1{
+      font-size: 6.5vw;
+     padding-left: 0vw;
+    
+    }
+    .show{
+      display: block
+    }
+   
+    .texta2{
+      display: none;
+      font-size: 1vw;
+      font-size: 1.69rem;
+      position: relative;
+     left: 0vw;
+     
+    }
+    .texts2{
+      position: relative;
+     right: 7vw;
+  
+    }
+    .texta3{
+      font-size: 7vw;
+   padding-left: 15%;
+    }
+    .texta5{
+      font-size: 7vw;
+     position: relative;
+     left: 0%;
+    }
+    .texts1{
+      padding-top: 3rem;
+      position: relative;
+     right: 13%;
+     margin-left: 2.5%;
+      /* display: none; */
+    }
+  
+    .kids{
+      height:auto;
+      width: 70%;
+    }
+    .tv{
+    display: block;
+    position: relative;
+   width: 40%;
+    height: auto;
+    left: 3%;
+    }
+    .textb{
+      width: 100vw;
+      font-size: 4.2vw;
+    position: relative;
+   right: 4%;
+  
+    }
+    .textb3{
+      width:95vw;
+      font-size: 5vw;
+      margin-left: 0.5rem;
+      
+    position: relative;
+   right: 13%;
+  
+    }
+    .textw{
+     position: relative;
+     right: 5vw;
+    }
+    .shows{
+      display: none;
+    }
+    .textb2{
+      width: 100vw;
+      font-size: 1.2rem;
+      font-family: 100;
+    position: relative;
+    right: 20vw;
+    margin-right: 50%;
+    }
+    .textb5{
+      width: 98vw;
+      font-size: 5vw;
+      margin-right: 0.5rem;
+    position: relative;
+   right: 24%;
+  
+}
+    .noshow{
+      display: none;
+    }
+    
+    .phone{
+      height: auto;
+   width: 70%;
+     position: relative;
+     left: 10vw;
+    }
+    .plain-text{
+      display: flex;
+      width: 100vw;
+      background-color: black;
+     /* padding: 3rem; */
+     border-bottom: 3px solid grey;
+     border-width: 0.6rem;
+    }
+    .third{
+      display: none;
+      width: 100vw;
+      height: 40vh;
+      position: relative;
+      bottom: 30%;
+      background-color: black;
+     padding: 2rem;
+    }
+    .thirdp{
+      display: block;
+    }
+    .fourth{
+      display: block;
+      width: 100%;
+      background-color: black;
+     padding: 2rem;
+     position: relative;
+     margin-right: -10rem;
+     border-bottom: 3px solid grey;
+     border-width: 0.6rem;
+    }
+  
+    .text{
+      margin-left: -29%;
+    }
+    .kids{
+      height: 30vh;
+      padding-left: 10vw;
+    }
+    .texta6{
+      width: 100%;
+     font-size: 7vw;
+     position: relative;     
+     top: 1.5rem;
+     padding-left: 12vw;
+    }
+    .q{
+      font-size: 1rem;
+      width: 82%;
+      position: relative;
+      left: 0%;
+      
+    }
+    .bunch{
+      margin-top: 16%;
+    }
+    .plus{
+      float: right;
+    padding-left: 25rem;
+    position: relative;
+    bottom: 2rem;
+      font-size: 2rem;
+      color: white;
+      cursor: pointer;
+    }
+    .total{
+      background-color: black;
+      padding-top: 0.5rem;
+    }
+    .plus2{
+      position: relative;
+      bottom: 1rem;
+      font-size: 2rem;
+    }
+    .insert2{
+      display: block;
+      position: relative;
+      left: 27%;
+      padding-bottom: 6rem;
+      border-width: 2rem;
+    }
+    .mail1{
+      width: 70%;
+      padding: 15px;
+      position: relative;
+     right: 15%;
+    }
+    .started1{
+      width: fit-content;
+      padding:15px;
+      font-size: 1.3rem;
+      text-align: center;
+      margin-left: 10%;
+      
+    }
+    .total{
+      background-color: black;
+      padding-top: 0.5rem;
+      padding-right: 30%;
+    }
+    .end{
+     position: relative;
+     right: 18%;
+    }
+    .end3, .end4{
+      display: none;
+    }
+    .deta{
+      font-size: 1.2rem;
+    }
+
+}
+
+@media screen and  (min-width:381px) and (max-width:600px){
+  html{
+    overflow-x: hidden;
+  }
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .cover{
+     height: 45vh;
    }
    .logo{
     width: 15%;
@@ -340,6 +651,9 @@ bottom: 0.5rem;
   position: relative;
   bottom: 0rem;
   cursor: pointer;
+  }
+  .sign{
+    background-color: red;
   }
   .sign{
     border-radius: 5px;
@@ -398,73 +712,93 @@ bottom: 0.5rem;
       padding-top: 7rem;
     }
     .texta{
-      font-size: 1.7rem;
-     margin-left: 0%;
+      font-size: 6.5vw;
+     padding-left: 30vw;
+    
 
     }
     .texta1{
-      font-size: 1.69rem;
-
+      font-size: 6vw;
+     padding-left: 5vw;
+     text-align: center;
+    }
+    .show{
+      display: block
     }
     .texta2{
+      font-size: 7vw;
       font-size: 1.69rem;
       position: relative;
-     right: -5%;
+     left: 0vw;
      
     }
     .texts2{
       position: relative;
-     right: 17%;
+     right: 7vw;
   
     }
     .texta3{
-      font-size: 1.7rem;
-   margin-left: 15%;
+      font-size: 7vw;
+   padding-left: 15%;
     }
     .texta5{
-      font-size: 1.7rem;
+      font-size: 7vw;
      position: relative;
-     left: 5%;
+     left: 0%;
     }
     .texts1{
       padding-top: 3rem;
       position: relative;
-     right: 12%;
+     right: 13%;
+     margin-left: 2.5%;
       /* display: none; */
     }
   
     .kids{
-      height: 60vh;
+      height:auto;
+      width: 70%;
     }
     .tv{
     display: block;
-    margin-left: 6%;
+    position: relative;
+   width: 40%;
+    height: auto;
+    left: 10%;
     }
     .textb{
       width: 100vw;
-      font-size: 1.3rem;
+      font-size: 4.2vw;
     position: relative;
-   margin-left: -9.3%;
+   right: 3%;
   
     }
     .textb3{
-      width: 100vw;
-      font-size: 1.3rem;
+      width:95vw;
+      font-size: 5vw;
       margin-left: 0.5rem;
+      
     position: relative;
-   right: 0%;
+   right: 13%;
   
+    }
+    .textw{
+     position: relative;
+     right: 5vw;
+    }
+    .shows{
+      display: none;
     }
     .textb2{
       width: 100vw;
       font-size: 1.4rem;
       font-family: 100;
     position: relative;
-    right: 7%;
+    right: 12vw;
+    margin-right: 50%;
     }
     .textb5{
       width: 98vw;
-      font-size: 1.5rem;
+      font-size: 5vw;
      
       margin-right: 0.5rem;
     position: relative;
@@ -476,8 +810,10 @@ bottom: 0.5rem;
     }
     
     .phone{
-      height: 30vh;
-      margin-left: 15%;
+      height: auto;
+   width: 70%;
+     position: relative;
+     left: 10vw;
     }
     .plain-text{
       display: flex;
@@ -515,13 +851,14 @@ bottom: 0.5rem;
     }
     .kids{
       height: 30vh;
+      padding-left: 10vw;
     }
     .texta6{
       width: 100%;
-     font-size: 1.7rem;
+     font-size: 7vw;
      position: relative;     
      top: 1.5rem;
-     padding-left: 10%;
+     padding-left: 12vw;
     }
     .q{
       font-size: 1.25rem;
@@ -587,4 +924,605 @@ bottom: 0.5rem;
       font-size: 1.2rem;
     }
 
+}
+
+@media screen and (min-width:600px) and (max-width:900px){
+  html{
+    overflow-x: hidden;
+  }
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .cover{
+max-height: 55vh;
+
+   }
+   .logo{
+    width: 15%;
+  }
+  .signin{
+   margin-right: 1rem;
+  position: relative;
+  bottom: 0rem;
+  cursor: pointer;
+  }
+  .sign{
+    background-color: red;
+  }
+  .sign{
+    border-radius: 5px;
+       padding: 7px;
+    }
+    .intro{
+      margin-top: 3rem;
+      top: 3rem;
+      left: 0%;
+    }
+    .header{
+      width: 100vw;
+      display: flex;
+      position: absolute;
+      top: 0rem;
+    }
+    .one{
+       font-size: 5.5vw;
+       font-weight: 600;
+       font-family: Arial, Helvetica, sans-serif;
+       
+    }
+   
+    .two{
+      font-size: 5.5vw;
+      line-height: 2px;
+    }
+    .twoa{
+      font-size: 4vw;
+    }
+   
+    .mail{
+      width: 80%;
+      padding: 1.2rem;
+      position: relative;
+    }
+    .started{
+      width: 25%;
+       padding: 7px;
+       font-size: 1.3rem;
+       margin-top: 0rem;
+       left: 37.5%;
+    }
+    
+    .insert{
+      display: block;    
+    }
+    .second{
+      display: block;
+      width: 100vw;
+      background-color: black;
+     padding: 6rem;
+
+    }
+    .texts{
+      padding-top: 7rem;
+    }
+    .texta{
+      font-size: 5vw;
+     padding-left: 30vw;
+    
+
+    }
+    .texta1{
+      width: 100vw;
+      font-size: 5vw;
+     padding-left: 3vw;
+     
+    }
+    
+    .show{
+      display: block
+    }
+    .texta2{
+      font-size: 7vw;
+      font-size: 1.69rem;
+      position: relative;
+     left: 0vw;
+     
+    }
+    .texts2{
+      position: relative;
+     right: 7vw;
+  
+    }
+    .texta3{
+      font-size: 5vw;
+   padding-left: 27.5%;
+    }
+    .texta5{
+      font-size: 5vw;
+     position: relative;
+     left: 15%;
+    }
+    .texts1{
+      padding-top: 3rem;
+      position: relative;
+     right: 13%;
+     margin-left: 2.5%;
+
+    }
+  
+    .kids{
+      height: 60vh;
+    }
+    .tv{
+    display: block;
+    position: relative;
+   width: 25%;
+    height: auto;
+    left: 23%;
+    }
+    .textb{
+      width: 100vw;
+      font-size: 3.7vw;
+    position: relative;
+   right: 3%;
+  
+    }
+    .display, .displayb{
+      display: none;
+    }
+    .textb3{
+      width:95vw;
+      font-size: 3.7vw;
+      margin-left: 0.5rem;
+      
+    position: relative;
+   right: 9%;
+  
+    }
+    .textw{
+     position: relative;
+     right: 5vw;
+    }
+    .shows{
+      display: none;
+    }
+    .textb2{
+      width: 96vw;
+      font-size: 3.7vw;
+      font-family: 100;
+    position: relative;
+    right: 8vw;
+       }
+    .textb5{
+      width: 98vw;
+      font-size: 3.7vw;
+     
+      margin-right: 0.5rem;
+    position: relative;
+   right: 13%;
+  
+}
+    .noshow{
+      display: none;
+    }
+    
+    .phone{
+      height: auto;
+      width: 50%;
+     max-width: 100%;
+     position: relative;
+     left: 20vw;
+    }
+    .plain-text{
+      display: flex;
+      width: 100vw;
+      background-color: black;
+     border-bottom: 3px solid grey;
+     border-width: 0.6rem;
+    }
+    .third{
+      display: none;
+      width: 100vw;
+      height: 40vh;
+      position: relative;
+      bottom: 30%;
+      background-color: black;
+     padding: 2rem;
+    }
+    .thirdp{
+      display: block;
+    }
+    .fourth{
+      display: block;
+      width: 100%;
+      background-color: black;
+     padding: 2rem;
+     position: relative;
+     margin-right: -10rem;
+     border-bottom: 3px solid grey;
+     border-width: 0.6rem;
+    }
+  
+    .text{
+      margin-left: -5.5rem;
+    }
+    .kids{
+      height: 30vh;
+      padding-left: 13vw;
+    }
+    .texta6{
+      width: 100%;
+     font-size: 5vw;
+     position: relative;     
+     top: 1.5rem;
+     padding-left: 20vw;
+    }
+    .q{
+      font-size: 1.4rem;
+      width: 82%;
+      position: relative;
+      left: 0%;
+      
+    }
+    .bunch{
+      margin-top: 6%;
+      margin-left: 5%;
+    }
+    .plus{
+      float: right;
+    padding-left: 25rem;
+    position: relative;
+    bottom: 2rem;
+      font-size: 2.5rem;
+      color: white;
+      cursor: pointer;
+    }
+    .total{
+      background-color: black;
+      padding-top: 0.5rem;
+    }
+    .plus2{
+      position: relative;
+      bottom: 1rem;
+    }
+    .insert2{
+      display: block;
+      position: relative;
+      left: 27%;
+      padding-bottom: 6rem;
+      border-width: 2rem;
+    }
+    .mail1{
+      width: 70%;
+      padding: 15px;
+      position: relative;
+     right: 15%;
+    }
+    .started1{
+      width: fit-content;
+      padding:15px;
+      font-size: 1.3rem;
+      text-align: center;
+      margin-left: 10%;
+      
+    }
+    .total{
+      background-color: black;
+      padding-top: 0.5rem;
+      padding-right: 30%;
+    }
+    .end{
+     position: relative;
+     right: 18%;
+    }
+    .end3, .end4{
+      display: none;
+    }
+    .deta{
+      font-size: 1.2rem;
+    }
+
+}
+@media screen and (min-width:900px) {
+  html{
+    overflow-x: hidden;
+  }
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .cover{
+max-height: 95vh;
+
+   }
+   .logo{
+    width: 15%;
+  }
+  .signin{
+   margin-right: 1rem;
+  position: relative;
+  bottom: 0rem;
+  cursor: pointer;
+  }
+  .sign{
+    background-color: red;
+    font-size: 1.4rem;
+  }
+  .sign{
+    border-radius: 5px;
+       padding: 12px;
+    }
+    .intro{
+      margin-top: 3rem;
+      top: 3rem;
+      left: 0%;
+    }
+    .header{
+      width: 100vw;
+      display: flex;
+      position: absolute;
+      top: 0rem;
+    }
+    .one{
+       font-size: 5.5vw;
+       font-weight: 600;
+       font-family: Arial, Helvetica, sans-serif;
+       
+    }
+   
+    .two{
+      font-size: 5.5vw;
+      line-height: 2px;
+    }
+    .twoa{
+      font-size: 4vw;
+    }
+   
+    .mail{
+      width: 80%;
+      padding: 1.2rem;
+      position: relative;
+    }
+    .started{
+      width: 15%;
+       padding: 7px;
+       font-size: 1.3rem;
+       margin-top: 0.5rem;
+       left: 43.5%;
+    }
+    
+    .insert{
+      display: block;    
+    }
+    .second{
+      display: block;
+      width: 100vw;
+      background-color: black;
+     padding: 6rem;
+
+    }
+    .texts{
+      padding-top: 7rem;
+    }
+    .texta{
+      font-size: 5vw;
+     padding-left: 35vw;
+    
+
+    }
+    .texta1{
+      width: 100vw;
+      font-size: 5vw;
+     padding-left: 5vw;
+     
+    }
+    
+    .show{
+      display: block
+    }
+    .texta2{
+      font-size: 7vw;
+      font-size: 1.69rem;
+      position: relative;
+     left: 0vw;
+     
+    }
+    .texts2{
+      position: relative;
+     right: 7vw;
+  
+    }
+    .texta3{
+      font-size: 5vw;
+   padding-left: 29.5%;
+    }
+    .texta5{
+      font-size: 5vw;
+     position: relative;
+     left: 18%;
+    }
+    .texts1{
+      padding-top: 3rem;
+      position: relative;
+     right: 13%;
+     margin-left: 2.5%;
+
+    }
+  
+    .kids{
+      height: 90vh;
+      position: relative;
+      left: 20vw;
+    }
+    .tv{
+    display: block;
+    position: relative;
+   width: 25%;
+    height: auto;
+    left: 30%;
+    }
+    .textb{
+      width: 100vw;
+      font-size: 3.7vw;
+    position: relative;
+   right: 3%;
+  
+    }
+    .display, .displayb{
+      display: none;
+    }
+    .textb3{
+      width:95vw;
+      font-size: 3.7vw;
+      margin-left: 0.5rem;
+      
+    position: relative;
+   right: 6%;
+  
+    }
+    .textw{
+     position: relative;
+     right: 5vw;
+    }
+    .shows{
+      display: none;
+    }
+    .textb2{
+      width: 96vw;
+      font-size: 3.7vw;
+      font-family: 100;
+    position: relative;
+    right: 5vw;
+       }
+    .textb5{
+      width: 98vw;
+      font-size: 3.7vw;
+     
+      margin-right: 0.5rem;
+    position: relative;
+   right: 9%;
+  
+}
+    .noshow{
+      display: none;
+    }
+    
+    .phone{
+      height: auto;
+      width: 50%;
+     max-width: 100%;
+     position: relative;
+     left: 23vw;
+    }
+    .plain-text{
+      display: flex;
+      width: 100vw;
+      background-color: black;
+     border-bottom: 3px solid grey;
+     border-width: 0.6rem;
+    }
+    .third{
+      display: none;
+      width: 100vw;
+      height: 40vh;
+      position: relative;
+      bottom: 30%;
+      background-color: black;
+     padding: 2rem;
+    }
+    .thirdp{
+      display: block;
+    }
+    .fourth{
+      display: block;
+      width: 100%;
+      background-color: black;
+     padding: 2rem;
+     position: relative;
+     margin-right: -10rem;
+     border-bottom: 3px solid grey;
+     border-width: 0.6rem;
+    }
+  
+    .text{
+      margin-left: -5.5rem;
+    }
+    .kids{
+      height: 30vh;
+      padding-left: 13vw;
+    }
+    .texta6{
+      width: 100%;
+     font-size: 5vw;
+     position: relative;     
+     top: 1.5rem;
+     padding-left: 20vw;
+    }
+    .q{
+      font-size: 1.8rem;
+      width: 82%;
+      position: relative;
+      left: 0%;
+      padding: 1rem;
+      
+    }
+    .bunch{
+      margin-top: 6%;
+      margin-left: 5%;
+    }
+    .plus{
+      float: right;
+    padding-left: 25rem;
+    position: relative;
+    bottom: 1rem;
+      font-size: 2.5rem;
+      color: white;
+      cursor: pointer;
+    }
+    .total{
+      background-color: black;
+      padding-top: 0.5rem;
+    }
+    .plus2{
+      position: relative;
+      bottom: 1rem;
+    }
+    .insert2{
+      display: block;
+      position: relative;
+      left: 27%;
+      padding-bottom: 6rem;
+      border-width: 2rem;
+    }
+    .mail1{
+      width: 70%;
+      padding: 15px;
+      position: relative;
+     right: 15%;
+    }
+    .started1{
+      width: fit-content;
+      padding:15px;
+      font-size: 1.3rem;
+      text-align: center;
+      margin-left: 15vw;
+      
+    }
+    .total{
+      background-color: black;
+      padding-top: 0.5rem;
+      padding-right: 30%;
+    }
+    .end{
+     position: relative;
+     right: 0%;
+    }
+    .end3, .end4{
+      display:block;
+      margin-left: 2rem;
+    }
+    .deta{
+      font-size: 1.2rem;
+    }
 }

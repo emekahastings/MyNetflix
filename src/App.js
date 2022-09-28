@@ -29,10 +29,12 @@ return(
 <Routes>
   <Route path="/" element={<Home />}></Route>
   <Route path="signin" element={<Signin />}></Route>
+  <Route path="signout/signin" element={<Signin />}></Route>
   <Route path="signin/mainpage" element={<Main />}></Route>
+  <Route path="signout/signin/mainpage" element={<Main />}></Route>
   <Route path="signin/step1b" element={<Step1b />}></Route>
   <Route path="step1b/step2a" element={<Step2a />}></Route>
-
+  <Route path="signin/step1b/step2a" element={<Step2a />}></Route>
   
   <Route path="signup" element={<Step1a />}/> 
   <Route path="step1b" element={<Step1b />} />

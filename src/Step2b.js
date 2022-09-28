@@ -84,6 +84,7 @@ const Step2b= ()=>{
                 <div className={steps.g2c}>Best</div>
                
                 </div>
+               
                 <div>
                 <div className={steps.res}>Resolution</div>
                 <div className={steps.group3}>
@@ -126,7 +127,7 @@ const Step2b= ()=>{
                 </div>
             <div className={steps.rows}>
                 <div className={steps.pricemove}>
-                <div className={steps.rowhead1}>Monthly Price</div> <br  className={steps.pricemove}/>
+                <div className={steps.rowhead1}>Monthly-Price</div> <br  className={steps.pricemove}/>
                  </div>
                 <div className={steps.row1a }>#1200</div>
                 <div className={steps.row1b}>#2400</div>
@@ -135,7 +136,7 @@ const Step2b= ()=>{
                 </div>
                
                 <div className={steps.rows}>
-                <div className={steps.rowhead1}>Video quality</div>
+                <div className={steps.rowhead1}>Video-quality</div>
                 <div className={steps.row2a }>Good</div>
                 <div className={steps.row2b}>Good</div>
                 <div className={steps.row2c}>Better</div>

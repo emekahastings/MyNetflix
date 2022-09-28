@@ -16,10 +16,11 @@ body{
     width: 1.5%;
     height: 3.5%;
     color: red;
-    margin-right:0.75rem;
+    padding-right:0.75rem;
 }
 .commit{
-    margin-left: 29rem;
+    /* margin-left: 29rem; */
+   padding-left: 31%;
 }
 .choose{
     padding-top: 2rem;
@@ -35,11 +36,12 @@ body{
  position: relative;
  left: 10%;
 }
+
 .a2{
     font-size: 1.2rem;
     display: flex;
  position: relative;
- left: 10%;
+  left: 10%;
 }
 .si{
     background-color: red;
@@ -75,6 +77,9 @@ body{
     width: 6%;
     margin-top: 4%;
 }
+.plan{
+    color: black;
+}
 
 
 .second{
@@ -87,6 +92,7 @@ body{
 }
 .size{
     font-size: 2rem;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
 }
 .oyashow{
@@ -98,9 +104,10 @@ body{
 .boxline{
     display: flex;
   float: right;
-  margin-right: 27rem;
+  /* margin-right: 27rem; */
   margin-bottom: 1rem;
-  position: sticky;
+  right: 23%;
+  position: relative;
   top: 0;
 }
 
@@ -206,6 +213,7 @@ body{
     margin-bottom: 0.5rem;
 
 }
+
 .row4a{
     margin-left: 9rem;
     margin-bottom: 0.5rem;
@@ -320,7 +328,7 @@ body{
     }
     .wrap{
        position: relative;
-       left: 40%;
+       left: 43vw;
        
     }
     .gadgets{
@@ -569,6 +577,10 @@ body{
         .padlock{
             color: green;
         }
+        .thirdp{
+            font-size: 3rem;
+            color: green;
+        }
     
         .go{
             width: 30%;
@@ -580,18 +592,18 @@ body{
                font-size: 1.2rem;
                  
         }
-    @media screen and (max-width:450px){
+    @media screen and (max-width:600px){
       body{
         background-color: white !important;
       }
       .commit{
-        margin-left: 0rem;
+        padding-left: 11%;
       }
       .logo{
         width: 25%;
       }
       .firstp{
-        left: 45%;
+        left: 50%;
         font-size: 1.4rem;
     }
     .circle{
@@ -600,15 +612,16 @@ body{
     .checks{
         width: 5%;
        position: relative;
-       left: 5%;
+       left: 4%;
     }
     .checks2{
-        width: 5%;
+        width: 5vw;
        position: relative;
        left: 0%;
     }
     .thirdp{
         font-size: 1.2rem;
+        color: black;
     }
     .a{
      left: 0%;
@@ -666,6 +679,10 @@ body{
         left: 20%;
         
      }
+     .size{
+        width: 100vw;
+        font-size: 80px;
+     }
      .three{
         font-size: 1.4rem;
         margin-left: 4rem;
@@ -695,33 +712,39 @@ body{
     }
     .size{
         width: 100%;
-        font-size: 2rem;
+        font-size: 6.5vw;
         font-family: 'Times New Roman', Times, serif;
         line-height: 40px;
+        font-weight: 600;
+        padding-left: 5vw;
     }
     .secondp{
         margin-top: 2rem;
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 5vw;
+        padding-left: 5vw;
     }
+   
     .oyashow{
         display: block;
     }
+    
     .a2{
-     left: 5%;
+        font-size: 5vw;
+     right: -6rem;
     }
     .boxline{
-        float: left;
-      margin-right: 3rem;
       margin-bottom: 1rem;
       position: sticky;
       top: 0;
+      left: 22%;
+      margin-right: 5%;
       margin-top: 2%;
     }
     .mobile, .standard, .basic{
         height: auto;
         font-size: 1.3rem;
-        padding: 1.3rem;
+        padding: 4vw;
         left: 0.5rem;
     }
     .premium{
@@ -733,11 +756,11 @@ body{
     .tranglem, .trangles{
         width: 0px;
         height:0px;
-        border-left:10px solid transparent;
-        border-right:10px solid transparent;
-        border-top: 20px solid red;
+        border-left:2.5vw solid transparent;
+        border-right:2.5vw solid transparent;
+        border-top: 5vw solid red;
         position: relative;
-        top: 4rem;
+        top:3.5rem;
         right: 4rem;
         visibility: visible;
        
@@ -746,10 +769,10 @@ body{
         right: 3rem;
     }
     .trangleb{
-       border-left:10px solid transparent;
-        border-right:10px solid transparent;
-        border-top: 20px solid rgb(202, 27, 27);
-        top:4rem;
+       border-left:2.5vw solid transparent;
+        border-right:2.5vw solid transparent;
+        border-top: 5vw solid rgb(202, 27, 27);
+        top:3.5rem;
         right: 2.7rem;
         visibility: visible;
     } 
@@ -789,20 +812,23 @@ body{
     }
     .g1a, .g1b, .g1c{
         font-size: 1.3rem;
-        margin-left: 3.5rem;
+        margin-left: 4.2rem;
     }
     .g2a, .g2b, .g2c{
         font-size: 1.3rem;
-        margin-left: 4rem;
+        margin-left: 4.3rem;
+    }
+    .g2b, .g2c, .g3b, .g3c{
+        margin-left: 4.7rem;
     }
     .g4a, .g4b, .g4c{
         font-size: 1.3rem;
         margin-top: 0.3rem;
-        margin-left: 2.7rem;
+        margin-left: 3rem;
     }
     .g3a, .g3b, .g3c{
         font-size: 1.3rem;
-        margin-left: 4rem;
+        margin-left: 4.3rem;
     }
     .g5a{
         font-size: 1.3rem;
@@ -883,30 +909,1068 @@ body{
                    padding: 13px;
                    margin-right: 10%;
             }
+           
             .three{
                 
-                margin-left: 5rem;
-                font-size: 1.5rem;
+              padding-left: 7vw;
+                font-size: 5.5vw;
                 font-weight: 600;
             }
            
             .pay{
                 display: block;
                 color:green;
-                /* margin-left: 1rem; */
+                padding-left: 10vw;
             }
             .sub{
-                width: 100%;
+                width: 100vw;
                 position: relative;
-                font-size: 1.4rem;
+                font-size: 5.2vw;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 font-weight: 400;
-                right: 7%;
+                right: 9%;
             }
             .lock{
-                margin-left: 1rem;
+                padding-left: 8vw;
             }
             .wrap{
                 position: relative;
-                left: 10%;
+                left: 13vw;
             }
+    }
+    @media screen and (min-width:600px) and (max-width:900px){
+        body{
+            background-color: white !important;
+          }
+          .commit{
+            padding-left: 11%;
+          }
+          .logo{
+            width: 25%;
+          
+          }
+          .firstp{
+            left: 55%;
+            font-size: 1.4rem;
+        }
+        .circle{
+            width: 15%;
+        }
+        .checks{
+            width: 3%;
+           position: relative;
+           left: 3%;
+        }
+        .checks2{
+            width: 4vw;
+           position: relative;
+           left: 0%;
+           margin-left: 5vw;
+        }
+        .thirdp{
+            font-size: 1.5rem;
+            color: black;
+        }
+        .a{
+         left: 15%;
+         
+        }
+        .finisha{
+            font-size: 1.5rem;
+        }
+        .personal{
+            width: 80%;
+            font-size: 1.4rem;
+            margin-left: 10%;
+        }
+        .si2{
+            width: 65%;
+            padding: 1.5%;;
+            left: 15%;
+        }
+        .devices{
+            width: 80%;
+            height: auto;
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+        .nowshow{
+            display: none;
+        }
+        .email, .password{
+            width: 75%;
+            padding: 1.8%;
+            border-radius: 5px;
+            font-size: 1.4rem;
+        }
+        .si3{
+            background-color: red;
+            width: 74%;
+            padding: 1.5%;
+            left: 12%;
+            
+        }
+        .offers{
+            font-size: 1.3rem;
+            text-align: left;
+            padding-left: 10.5%;
+        }
+        .paper{
+            width: 95%;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+            margin-bottom: 10%;
+            font-size: 1.3rem;
+        }
+        .wrap{
+            position: relative;
+            left: 20%;
+            
+         }
+         .size{
+            width: 100vw;
+            font-size: 80px;
+         }
+         .three{
+            font-size: 1.4rem;
+            margin-left: 4rem;
+         }
+         
+         .padlock{
+            margin-top: 5rem;
+            height: 40px;
+        }
+        .secure{
+            font-family: 100;
+            font-size: 1.25rem;
+            margin-left: 1rem;
+            position: relative;
+            bottom: 0rem;
+        }
+        .small{
+            font-size: 1.25rem;
+            font-family: 'Times New Roman', Times, serif;
+            position: relative;
+            width: 80%;
+            margin-left: 5%;
+            right: 10%;
+        }
+        .choose{
+            padding-left: 5%;
+        }
+        .size{
+            width: 100%;
+            font-size: 5vw;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 40px;
+            font-weight: 100;
+            padding-left: 0vw;
+        }
+        .secondp{
+            margin-top: 4vw;
+            font-weight: 700;
+            font-size: 3.5vw;
+            padding-left: 0vw;
+        }
+       
+        .oyashow{
+            display: none;
+        }
+        .groups{
+            display: none;
+        }
+        
+        .a2{
+            font-size: 3.7vw;
+            position: relative;
+            /* right: 2%; */
+         left: 0vw;
+        }
+        .boxline{
+          margin-bottom: 1rem;
+          /* position: sticky; */
+          position: relative;
+          top: 0;
+          left: 7%;
+          margin-right: 5%;
+          margin-top: 6%;
+          margin-bottom: 10%;
+        }
+        .mobile, .standard, .basic{
+            height: auto;
+            font-size: 1.3rem;
+            padding: 4vw;
+            left: 0.5rem;
+        }
+        .premium{
+            display: none;
+        }
+        .tranglep{
+            display: none;
+        }
+        .tranglem, .trangles{
+            width: 0px;
+            height:0px;
+            border-left:2vw solid transparent;
+            border-right:2vw solid transparent;
+            border-top: 4vw solid red;
+            position: relative;
+            top:5rem;
+            right: 5rem;
+            visibility: visible;
+           
+        }
+        .tranglem{
+            right: 4rem;
+        }
+        .trangleb{
+           border-left:2vw solid transparent;
+            border-right:2vw solid transparent;
+            border-top: 4vw solid red;
+            top:5rem;
+            right: 3.6rem;
+            visibility: visible;
+        } 
+      
+        .pricemove{
+            display: block;
+        }
+      
+        
+         .last{
+            font-size: 1rem;
+            margin-left: 2rem;
+        }
+        .nextdiv{
+            position: relative;
+            left: 5%;
+            margin-right: 10%;
+            margin-top: 3rem;
+        }
+        .next{
+            width: 90%;
+        }
+        .confirm{
+            position: relative;
+            left: 5%;
+                }
+                .leave{
+                  font-size: 1.7rem;
+                  font-weight: 400;
+        
+                }
+                .just{
+                    width: 90%;
+                    font-size: 1.1rem;
+                    margin-bottom: 6%;
+                   
+                }
+                .gadgets{
+                    width: 75%;
+                  margin-top: 10%;
+               
+                    padding-left: 11%;
+                }
+              .signincover{
+                margin-right: 1rem;
+    
+              }
+                .go{
+                    width: 83%;
+                    font-size: 1.3rem;
+                       padding: 13px;
+                       margin-right: 10%;
+                }
+               
+                .three{
+                    
+                  padding-left: 7vw;
+                    font-size: 5.5vw;
+                    font-weight: 600;
+                }
+               
+                .pay{
+                    display: block;
+                    color:green;
+                    padding-left: 10vw;
+                }
+                .sub{
+                    width: 100vw;
+                    position: relative;
+                    font-size: 5.2vw;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-weight: 400;
+                    right: 9%;
+                }
+                .lock{
+                    padding-left: 8vw;
+                }
+                .wrap{
+                    position: relative;
+                    left: 13vw;
+                }
+
+
+                .rows{
+                   
+                    font-size: 1.1rem;
+                    border-bottom: 1px solid grey;
+               
+                    width: 100%;
+                    margin-left: 5%;
+                   
+                }
+
+                .rowhead1{
+                    color: black;
+                    font-size: 4vw;
+                }
+                .row1a ,.g1a{
+                    margin-left: 17%;
+                    font-size: 3.7vw;
+                    color: rgb(10, 9, 9);
+                    /* margin-bottom: 0.5rem; */
+                }
+                .contain{
+                    display: block;
+                }
+                 .row1b , .g1b{
+                    font-size: 3.7vw;
+                    margin-left: 10%;
+                    /* margin-bottom: 1.5rem;  */
+                }
+                .row1c,  .g1c{
+                    font-size: 3.7vw;
+                    margin-left: 10%;
+                    /* margin-bottom: 1.5rem;  */
+                }
+                .row2a{
+                    margin-left: 20%;
+                    font-size: 3.7vw;
+                    color: rgb(10, 9, 9);
+                    margin-bottom: 0.5rem;
+                }
+                 .row2b, .row2c{
+                    margin-left: 11%;
+                    font-size: 3.7vw;
+                    /* margin-bottom: 1.5rem; */
+                    
+                }
+                .row2c, .row2d{
+                    font-size: 3.7vw;
+                    margin-left: 10%;
+                    /* margin-bottom: 1.5rem; */
+                    
+                }
+                .row3a{
+                    margin-left: 25%;
+                    color: rgb(10, 9, 9);
+                    margin-bottom: 0.5rem;
+                    font-size: 3.7vw;
+                
+                }
+                
+                .row4a{
+                    margin-left: 0rem;
+                    margin-bottom: 0.5rem;
+                
+                }
+                .row4b{
+                    margin-left: 9rem;
+                    margin-bottom: 1.5rem;  
+                }
+                .row4c{
+                    margin-left: 10rem;
+                    margin-bottom: 1.5rem;
+                }
+                .row4d{
+                    margin-left: 10rem;
+                    margin-bottom: 1.5rem;
+                }
+                .row3b{
+                    font-size: 3.7vw;
+                        margin-left: 12%;
+                        /* margin-bottom: 1.5rem;   */
+                    }
+                    .row3c{
+                        font-size: 3.7vw;
+                        margin-left: 10%;
+                        /* margin-bottom: 1.5rem; */
+                        
+                    }
+                    .row1d, .row2d, .row3d, .row4d{
+                        display: none;
+                    }
+                    .devicess{
+                        display: none;
+                    }
+
+    }
+    @media screen and (min-width:300px) and (max-width:380px){
+        body{
+            background-color: white !important;
+          }
+          .commit{
+            padding-left: 11%;
+          }
+          .logo{
+            width: 20%;
+
+          }
+          .firstp{
+            left: 47%;
+            font-size: 1.2rem;
+        }
+        .finish{
+            font-size: 1.5rem;
+        }
+        .circle{
+            width: 15%;
+        }
+        .checks{
+            width: 4%;
+           position: relative;
+           left: 6%;
+        }
+        .checks2{
+            width: 4vw;
+           position: relative;
+           left: 0%;
+           margin-left: 5vw;
+        }
+        .thirdp{
+            font-size: 1.1rem;
+            color: black;
+        }
+        .a{
+         left: 0%;
+         
+        }
+        .plan{
+            font-size: 1.5rem;
+        }
+        .finisha{
+            font-size: 1.5rem;
+        }
+        .personal{
+            width: 80%;
+            font-size: 1.2rem;
+            margin-left: 10%;
+        }
+        .si2{
+            width: 65%;
+            padding: 1.5%;;
+            left: 15%;
+        }
+        .devices{
+            width: 80%;
+            height: auto;
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+        .nowshow{
+            display: none;
+        }
+        .email, .password{
+            width: 75%;
+            padding: 0.5%;
+            border-radius: 5px;
+            font-size: 1.1rem;
+        }
+        .si3{
+            background-color: red;
+            width: 74%;
+            padding: 1.5%;
+            left: 12%;
+            
+        }
+        .offers{
+            font-size: 1.1rem;
+            text-align: left;
+            padding-left: 10.5%;
+        }
+        .paper{
+            width: 95%;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+            margin-bottom: 10%;
+            font-size: 1.1rem;
+        }
+        .wrap{
+            position: relative;
+            left: 20%;
+            
+         }
+         .size{
+            width: 100vw;
+            font-size: 80px;
+         }
+         .three{
+            font-size: 1.4rem;
+            margin-left: 4rem;
+         }
+         
+         .padlock{
+            margin-top: 5rem;
+            height: 40px;
+        }
+        .secure{
+            font-family: 100;
+            font-size: 1.25rem;
+            margin-left: 1rem;
+            position: relative;
+            bottom: 0rem;
+        }
+        .small{
+            font-size: 1.25rem;
+            font-family: 'Times New Roman', Times, serif;
+            position: relative;
+            width: 80%;
+            margin-left: 5%;
+            right: 10%;
+        }
+        .choose{
+            padding-left: 5%;
+        }
+        .size{
+            width: 100%;
+            font-size: 5vw;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 40px;
+            font-weight: 100;
+            padding-left: 0vw;
+        }
+        .secondp{
+            margin-top: 4vw;
+            font-weight: 700;
+            font-size: 4.5vw;
+            padding-left: 0vw;
+        }
+       
+        .oyashow{
+            display: none;
+        }
+        .groups{
+            display: none;
+        }
+        
+        .a2{
+            font-size: 3.7vw;
+            position: relative;
+            /* right: 2%; */
+         left: 0vw;
+        }
+        .boxline{
+          margin-bottom: 1rem;
+          /* position: sticky; */
+          position: relative;
+          top: 0;
+          left: 7%;
+          margin-right: 5%;
+          margin-top: 6%;
+          margin-bottom: 10%;
+        }
+        .mobile, .standard, .basic{
+            height: auto;
+            font-size: 1.3rem;
+            padding: 4vw;
+            left: 0.5rem;
+        }
+        .premium{
+            display: none;
+        }
+        .tranglep{
+            display: none;
+        }
+        .tranglem, .trangles{
+            width: 0px;
+            height:0px;
+            border-left:2vw solid transparent;
+            border-right:2vw solid transparent;
+            border-top: 4vw solid red;
+            position: relative;
+            top:5rem;
+            right: 5rem;
+            visibility: visible;
+           
+        }
+        .tranglem{
+            right: 4rem;
+        }
+        .trangleb{
+           border-left:2vw solid transparent;
+            border-right:2vw solid transparent;
+            border-top: 4vw solid red;
+            top:5rem;
+            right: 3.6rem;
+            visibility: visible;
+        } 
+      
+        .pricemove{
+            display: block;
+        }
+      
+        
+         .last{
+            font-size: 1rem;
+            margin-left: 2rem;
+        }
+        .nextdiv{
+            position: relative;
+            left: 5%;
+            margin-right: 10%;
+            margin-top: 3rem;
+        }
+        .next{
+            width: 90%;
+        }
+        .confirm{
+            position: relative;
+            left: 5%;
+                }
+                .leave{
+                  font-size: 1.7rem;
+                  font-weight: 400;
+        
+                }
+                .just{
+                    width: 90%;
+                    font-size: 1.1rem;
+                    margin-bottom: 6%;
+                   
+                }
+                .gadgets{
+                    width: 75%;
+                  margin-top: 10%;
+               
+                    padding-left: 11%;
+                }
+              .signincover{
+                margin-right: 1rem;
+    
+              }
+                .go{
+                    width: 83%;
+                    font-size: 1.3rem;
+                       padding: 13px;
+                       margin-right: 10%;
+                }
+               
+                .three{
+                    
+                  padding-left: 7vw;
+                    font-size: 5.5vw;
+                    font-weight: 600;
+                }
+               
+                .pay{
+                    display: block;
+                    color:green;
+                    padding-left: 10vw;
+                }
+                .sub{
+                    width: 100vw;
+                    position: relative;
+                    font-size: 5.2vw;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-weight: 400;
+                    right: 9%;
+                }
+                .lock{
+                    padding-left: 8vw;
+                }
+                .wrap{
+                    position: relative;
+                    left: 13vw;
+                }
+            .groups{
+                display: block;
+            }
+
+                    .devicess{
+                        display: none;
+                    }
+
+    }
+    @media screen and (min-width:900px){
+        body{
+            background-color: white !important;
+          }
+          .commit{
+            padding-left: 11%;
+          }
+          .logo{
+            width: 15%;
+            margin-left: 4%;
+          }
+          .signin{
+            font-size: 1.8rem;
+          }
+          .firstp{
+            left: 55%;
+            font-size: 2rem;
+        }
+        .circle{
+            width: 15%;
+        }
+        .checks{
+            width: 3%;
+           position: relative;
+           left: 2%;
+        }
+        .checks2{
+            width: 4vw;
+           position: relative;
+           left: 0%;
+           margin-left: 5vw;
+        }
+        .thirdp{
+            font-size: 2.1rem;
+            color: black;
+        }
+        .a{
+         left: 15%;
+      
+         
+        }
+        .finisha{
+            font-size: 2.3rem;
+        }
+        .personal{
+            width: 80%;
+            font-size: 2rem;
+            margin-left: 10%;
+        }
+        
+        .si2{
+            width: 65%;
+            padding: 1.5%;;
+            left: 15%;
+            font-size: 2rem;
+        }
+        .devices{
+            width: 80%;
+            height: auto;
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+        .nowshow{
+            display: none;
+        }
+        .email, .password{
+            width: 75%;
+            padding: 1.8%;
+            border-radius: 5px;
+            font-size: 2rem;
+        }
+        .finish{
+            font-size: 2.5rem;
+        }
+        .si3{
+            background-color: red;
+            width: 74%;
+            padding: 1.5%;
+            left: 12%;
+            font-size: 2rem;
+        }
+        .offers{
+            font-size: 1.8rem;
+            text-align: left;
+            padding-left: 10.5%;
+        }
+        .paper{
+            width: 95%;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+            margin-bottom: 10%;
+            font-size: 2rem;
+        }
+        .wrap{
+            position: relative;
+            left: 20%;
+            
+         }
+         .size{
+            width: 100vw;
+            font-size: 80px;
+         }
+         .three{
+            font-size: 1.4rem;
+            margin-left: 4rem;
+         }
+         
+         .padlock{
+            margin-top: 5rem;
+            height: 40px;
+        }
+        .secure{
+            font-family: 100;
+            font-size: 1.25rem;
+            margin-left: 1rem;
+            position: relative;
+            bottom: 0rem;
+        }
+        .small{
+            font-size: 1.25rem;
+            font-family: 'Times New Roman', Times, serif;
+            position: relative;
+            width: 80%;
+            margin-left: 5%;
+            right: 10%;
+        }
+        .choose{
+            padding-left: 5%;
+        }
+        .size{
+            width: 100%;
+            font-size: 5vw;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 40px;
+            font-weight: 100;
+            padding-left: 0vw;
+        }
+        .secondp{
+            margin-top: 4vw;
+            font-weight: 700;
+            font-size: 3.5vw;
+            padding-left: 0vw;
+        }
+       
+        .oyashow{
+            display: none;
+        }
+        .groups{
+            display: none;
+        }
+        
+        .a2{
+            font-size: 3.7vw;
+            position: relative;
+            /* right: 2%; */
+         left: 0vw;
+        }
+        .boxline{
+          margin-bottom: 1rem;
+          /* position: sticky; */
+          position: relative;
+          top: 0;
+          left: -13%;
+          margin-right: 5%;
+          margin-top: 6%;
+          margin-bottom: 10%;
+        }
+        .mobile, .standard, .basic{
+            height: auto;
+            font-size: 1.3rem;
+            padding: 4vw;
+            left: 0.5rem;
+            margin-left: 8%;
+        }
+        .premium{
+            display: none;
+        }
+        .tranglep{
+            display: none;
+        }
+        .tranglem, .trangles{
+            width: 0px;
+            display: none;
+            height:0px;
+            border-left:2vw solid transparent;
+            border-right:2vw solid transparent;
+            border-top: 4vw solid red;
+            position: relative;
+            top:5rem;
+            right: 5rem;
+            visibility: visible;
+           
+        }
+        .tranglem{
+            right: 4rem;
+        }
+        .trangleb{
+           border-left:2vw solid transparent;
+            border-right:2vw solid transparent;
+            border-top: 4vw solid red;
+            top:5rem;
+            right: 3.6rem;
+            display: none;
+            visibility: visible;
+        } 
+      
+        .pricemove{
+            display: block;
+        }
+      
+        
+         .last{
+            font-size: 1.8rem;
+            margin-left: 2rem;
+        }
+        .nextdiv{
+            position: relative;
+            left: 7.5%;
+          font-size: 2rem;
+            margin-right: 10%;
+            margin-top: 3rem;
+        }
+        .next{
+            width: 90%;
+        }
+        .confirm{
+            position: relative;
+            left: 5%;
+                }
+                .leave{
+                  font-size: 2.5rem;
+                  font-weight: 400;
+        
+                }
+                .just{
+                    width:60%;
+                    font-size: 2rem;
+                    margin-bottom: 6%;
+                   
+                }
+                .gadgets{
+                    width: 75%;
+                  margin-top: 10%;
+               
+                    padding-left: 11%;
+                }
+              .signincover{
+                margin-right: 1rem;
+    
+              }
+                .go{
+                    width: 83%;
+                    font-size: 2rem;
+                       padding: 13px;
+                       margin-right: 10%;
+                }
+               
+                .three{
+                    
+                  padding-left: 7vw;
+                    font-size: 5.5vw;
+                    font-weight: 600;
+                }
+               
+                .pay{
+                    display: block;
+                    color:green;
+                    padding-left: 10vw;
+                }
+                .sub{
+                    width: 100vw;
+                    position: relative;
+                    font-size: 5.2vw;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-weight: 400;
+                    right: 9%;
+                }
+                .lock{
+                    padding-left: 8vw;
+                }
+                .wrap{
+                    position: relative;
+                    left: 13vw;
+                }
+
+
+                .rows{
+                   
+                    font-size: 1.1rem;
+                    border-bottom: 1px solid grey;
+               
+                    width: 100%;
+                    margin-left: 5%;
+                   
+                }
+
+                .rowhead1{
+                    color: black;
+                    font-size: 4vw;
+                }
+                .row1a ,.g1a{
+                    margin-left: 17%;
+                    font-size: 3.7vw;
+                    color: rgb(10, 9, 9);
+                    /* margin-bottom: 0.5rem; */
+                }
+                .contain{
+                    display: block;
+                }
+                 .row1b , .g1b{
+                    font-size: 3.7vw;
+                    margin-left: 10%;
+                    /* margin-bottom: 1.5rem;  */
+                }
+                .row1c,  .g1c{
+                    font-size: 3.7vw;
+                    margin-left: 10%;
+                    /* margin-bottom: 1.5rem;  */
+                }
+                .row2a{
+                    margin-left: 20%;
+                    font-size: 3.7vw;
+                    color: rgb(10, 9, 9);
+                    margin-bottom: 0.5rem;
+                }
+                 .row2b, .row2c{
+                    margin-left: 11%;
+                    font-size: 3.7vw;
+                    /* margin-bottom: 1.5rem; */
+                    
+                }
+                .row2c, .row2d{
+                    font-size: 3.7vw;
+                    margin-left: 10%;
+                    /* margin-bottom: 1.5rem; */
+                    
+                }
+                .row3a{
+                    margin-left: 25%;
+                    color: rgb(10, 9, 9);
+                    margin-bottom: 0.5rem;
+                    font-size: 3.7vw;
+                
+                }
+                
+                .row4a{
+                    margin-left: 0rem;
+                    margin-bottom: 0.5rem;
+                
+                }
+                .row4b{
+                    margin-left: 9rem;
+                    margin-bottom: 1.5rem;  
+                }
+                .row4c{
+                    margin-left: 10rem;
+                    margin-bottom: 1.5rem;
+                }
+                .row4d{
+                    margin-left: 10rem;
+                    margin-bottom: 1.5rem;
+                }
+                .row3b{
+                    font-size: 3.7vw;
+                        margin-left: 12%;
+                        /* margin-bottom: 1.5rem;   */
+                    }
+                    .row3c{
+                        font-size: 3.7vw;
+                        margin-left: 10%;
+                        /* margin-bottom: 1.5rem; */
+                        
+                    }
+                    .row1d, .row2d, .row3d, .row4d{
+                        display: none;
+                    }
+                    .devicess{
+                        display: none;
+                    }
+
+
     }

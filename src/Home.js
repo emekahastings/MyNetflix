@@ -78,7 +78,7 @@ const Home= (props)=>{
           <div className="second">
           <div className="text">
             <b className="texta">Enjoy your TV.</b>
-            <p className='textb'>Watch on smart TVs, playstations, Xbox <br />
+            <p className='textb'>Watch on smart TVs, playstations, Xbox <br className='display' />
              Chromecast, Apple Tv, Blue-ray Players and more
 
             </p>
@@ -88,8 +88,8 @@ const Home= (props)=>{
 
           <div className="thirdp">
           <div className="texts2">
-          <b className="texta2">Download your shows to <br />
-                                <b className='texta1'>       watch Offline </b>
+          <b className="texta1">Download your shows to watch <br className='displayb'  />
+                                 Offline 
              </b>
           <p className='textb2'>Save some of your favourites easily and always have < br className='noshow' />
             something to watch
@@ -107,10 +107,8 @@ const Home= (props)=>{
 
           <div className="third">
           <img src={phone} className="phone" alt="logo" />
-          <div className="texts2">
-          <b className="texta2">Download your shows to <br />
-                                <b className='texta1'>       watch Offline </b>
-             </b>
+          <div className="texts2"> 
+            <b className='a2'>Download your shows to watch offline</b>
           <p className='textb2'>Save some of your favourites easily and always have < br className='noshow' />
             something to watch
 
@@ -120,10 +118,10 @@ const Home= (props)=>{
           </div>
 
           <div className="plain-text">
-          <div className="text">
+          <div className="textw">
             <b className="texta3">Watch everywhere.</b>
-            <p className='textb3'>Stream unlimited movies and Tv shows on <br />
-            your phone tablets, laptops and Tvs
+            <p className='textb3'>Stream unlimited movies and Tv shows on <br className='shows' />
+            your phone, tablets, laptops and Tvs
 
             </p>
           </div>
