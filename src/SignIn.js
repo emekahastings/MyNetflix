@@ -22,13 +22,7 @@ const Signin= ()=>{
      let response= await signInWithEmailAndPassword(auth, lemail, lpassword)
      navigate('./mainpage')
      console.log(response)
-    //  if(response.hasOwnProperty('message')){
-    //   console.log(response.message)
-    //  }
-    //  if(response.hasOwnProperty('user')){
-    //   console.log('sharp')
-    //  }
-  
+   
     }
     catch(error){
     setlerror(

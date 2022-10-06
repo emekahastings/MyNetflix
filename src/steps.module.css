@@ -3,6 +3,7 @@ html{
 }
 body{
     background-color: white;
+    font-family: sans-serif;
     margin: auto;
     padding: 0;
 }
@@ -630,6 +631,12 @@ body{
     .finisha{
         font-size: 1.5rem;
     }
+    .finish{
+        font-size: 6vw;
+    }
+    .dev, .group4, .group5, .group6 ,.group7{
+        display: none;
+    }
     .personal{
         width: 80%;
         font-size: 1.4rem;
@@ -639,6 +646,18 @@ body{
         width: 65%;
         padding: 1.5%;;
         left: 15%;
+    }
+    .msg{
+         position: absolute;
+         top: 30.5vh;
+         left: 10%;
+        font-weight: 500;
+        color: red;
+         
+    }
+    .email{
+    position: relative;
+    margin-top: 0%;
     }
     .devices{
         width: 80%;
@@ -672,7 +691,7 @@ body{
         margin-left: 2.5%;
         margin-right: 2.5%;
         margin-bottom: 10%;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .wrap{
         position: relative;
@@ -743,6 +762,7 @@ body{
     }
     .mobile, .standard, .basic{
         height: auto;
+        background-color: red;
         font-size: 1.3rem;
         padding: 4vw;
         left: 0.5rem;
@@ -812,23 +832,22 @@ body{
     }
     .g1a, .g1b, .g1c{
         font-size: 1.3rem;
-        margin-left: 4.2rem;
+        margin-left: 3.8rem;
     }
     .g2a, .g2b, .g2c{
         font-size: 1.3rem;
-        margin-left: 4.3rem;
+        margin-left: 4.2rem;
     }
     .g2b, .g2c, .g3b, .g3c{
-        margin-left: 4.7rem;
+        margin-left: 4rem;
     }
-    .g4a, .g4b, .g4c{
+   
+    .g3a, .g3c{
         font-size: 1.3rem;
-        margin-top: 0.3rem;
-        margin-left: 3rem;
+        margin-left: 4rem;
     }
-    .g3a, .g3b, .g3c{
-        font-size: 1.3rem;
-        margin-left: 4.3rem;
+    .g3b{
+        margin-left: 4.8rem;
     }
     .g5a{
         font-size: 1.3rem;
@@ -1309,6 +1328,7 @@ body{
     @media screen and (min-width:300px) and (max-width:380px){
         body{
             background-color: white !important;
+            font-family: sans-serif;
           }
           .commit{
             padding-left: 11%;
@@ -1318,7 +1338,7 @@ body{
 
           }
           .firstp{
-            left: 47%;
+            left: 52%;
             font-size: 1.2rem;
         }
         .finish{
@@ -1332,6 +1352,19 @@ body{
            position: relative;
            left: 6%;
         }
+        .msg{
+            position: absolute;
+            top: 33.7vh;
+            left: 11.5%;
+            font-size: 0.9rem;
+           font-weight: 500;
+           color: red;
+            
+       }
+       .email{
+       position: relative;
+       margin-top: 0%;
+       }
         .checks2{
             width: 4vw;
            position: relative;
@@ -1356,6 +1389,7 @@ body{
             width: 80%;
             font-size: 1.2rem;
             margin-left: 10%;
+            font-family: sans-serif;
         }
         .si2{
             width: 65%;
@@ -1465,7 +1499,7 @@ body{
           /* position: sticky; */
           position: relative;
           top: 0;
-          left: 7%;
+          left: -5%;
           margin-right: 5%;
           margin-top: 6%;
           margin-bottom: 10%;
@@ -1473,38 +1507,15 @@ body{
         .mobile, .standard, .basic{
             height: auto;
             font-size: 1.3rem;
+            background-color: red;
             padding: 4vw;
-            left: 0.5rem;
+            left: 1rem;
+            margin-left: 1rem;
         }
         .premium{
             display: none;
         }
-        .tranglep{
-            display: none;
-        }
-        .tranglem, .trangles{
-            width: 0px;
-            height:0px;
-            border-left:2vw solid transparent;
-            border-right:2vw solid transparent;
-            border-top: 4vw solid red;
-            position: relative;
-            top:5rem;
-            right: 5rem;
-            visibility: visible;
-           
-        }
-        .tranglem{
-            right: 4rem;
-        }
-        .trangleb{
-           border-left:2vw solid transparent;
-            border-right:2vw solid transparent;
-            border-top: 4vw solid red;
-            top:5rem;
-            right: 3.6rem;
-            visibility: visible;
-        } 
+       
       
         .pricemove{
             display: block;
@@ -1568,6 +1579,9 @@ body{
                     color:green;
                     padding-left: 10vw;
                 }
+                .dev, .group4, .group5, .group6 ,.group7{
+                    display: none;
+                }
                 .sub{
                     width: 100vw;
                     position: relative;
@@ -1585,9 +1599,32 @@ body{
                 }
             .groups{
                 display: block;
+              
+            }
+            .tranglep, .tranglem ,.trangleb, .trangles{
+                display: none;
+            }
+            .g1a, .g1b, .g1c{
+                font-size: 1.1rem;
+                margin-left: 3.5rem;
+            }
+            .g2a, .g2b, .g2c{
+                font-size: 1.1rem;
+                margin-left: 3.9rem;
+            }
+            .g2b, .g2c, .g3b, .g3c{
+                margin-left: 3.9rem;
+            }
+           
+            .g3a, .g3b, .g3c{
+                font-size: 1.1rem;
+                margin-left: 3.9rem;
             }
 
                     .devicess{
+                        display: none;
+                    }
+                    .dev{
                         display: none;
                     }
 
@@ -1973,4 +2010,19 @@ body{
                     }
 
 
+    }
+    @media screen and (min-width:300px) and (max-width:380px) and (min-height:750px){
+        .msg{
+            position: absolute;
+            top: 29vh;
+            left: 11.5%;
+            font-size: 0.9rem;
+           font-weight: 500;
+           color: red;
+            
+       }
+       .email{
+       position: relative;
+       margin-top: 0%;
+       }
     }

@@ -1,5 +1,5 @@
 import React from 'react'
-import netflixcover from './netflixcover copy.jpg'
+import netflixcover from './netflixcovera.jpg'
 import netflixlogo from './sharpnetflixlogo.png'
 import tv from './img2b.png'; 
 import kids from './img3.png'
@@ -88,9 +88,7 @@ const Home= (props)=>{
 
           <div className="thirdp">
           <div className="texts2">
-          <b className="texta1">Download your shows to watch <br className='displayb'  />
-                                 Offline 
-             </b>
+          <b className="texta1">Download your shows to watch </b>
           <p className='textb2'>Save some of your favourites easily and always have < br className='noshow' />
             something to watch
 

@@ -26,7 +26,7 @@ const Step2a= ()=>{
     </div>
     <div className={steps.commit}>
    <div className={steps.a}> <img src={check} className={steps.checks} alt='lol' /> <div className={steps.thirdp}>No commitments, Cancel anytime</div></div> < br />
-    <div className={steps.a}><img src={check} className={steps.checks} alt='lol' /> <div className={steps.thirdp}>Everything on netflix for one low  price</div></div>  < br />
+    <div className={steps.a}><img src={check} className={steps.checks} alt='lol' /> <div className={steps.thirdp}>Everything on netflix for one price</div></div>  < br />
      <div className={steps.a}><img src={check} className={steps.checks} alt='lol' /> <div className={steps.thirdp}>No ads, no extra fees, Ever!</div></div>  < br />
     </div>
     <div className={steps.sign}>

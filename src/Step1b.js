@@ -15,26 +15,23 @@ const navigate= useNavigate()
 
   let [remail, setremail]= useState()
   let [rpassword, setrpassword]= useState()
-  let [error, seterror]= useState('')
+  let [error, seterror]= useState(false)
 
 
-  
+ 
   let register = async()=>{
-    let email= document.getElementsByClassName('email')
-    if(email.value===''){
-      alert('empty')
-    }
+   
      try{
       let user= await createUserWithEmailAndPassword(auth, remail, rpassword)
+      navigate('./Step2a')
       console.log(user)
-      seterror('')
      }
     
      catch(error){
      
       seterror(
         {
-        message: 'Invalid Emai/Password',
+        message: 'Please check Email/Password',
       })
      }
   }
@@ -53,7 +50,7 @@ const navigate= useNavigate()
    </div>
    <p className={steps.secondp}>Step <b>1</b> out of 3</p>
     </div>
-    <p className={styles.msg}>{error.message}</p>
+    <p className={steps.msg}>{error.message}</p>
     <h1 className={steps.finish}>Create a password to <br /> start your membership</h1>
 
     <div className={steps.paper}>
@@ -61,22 +58,19 @@ const navigate= useNavigate()
         We hate to do paperwork too</p>
     </div>
     
-    <input className={steps.email} type='text' placeholder="Email or Phone Number" onChange={(event)=>{
-      setremail(event.target.value)
-     
-                                                                                                   }} /> <br /> 
+    <input className={steps.email} type='email'  placeholder="Email or Phone Number" required onChange={(event)=>{
+      setremail(event.target.value) }} /> <br /> 
+
 
 <input className={steps.password} type='password' placeholder="Password"  onChange={(event)=>{
-      setrpassword(event.target.value)
-
-                                                                                                   }}/>
+      setrpassword(event.target.value)}}/>
 
 <p className={steps.offers}> <input type={'checkbox'}  className={steps.boxes} /> Please remind me of new offers</p>
 
 
 <div className={steps.sign}>
   <nav>
-  <Link to="step2a"><h3 className={steps.si3} onClick={register}>Next</h3> </Link>
+  <h3 className={steps.si3} onClick={register}>Next</h3> 
   </nav>
   <Outlet />
 </div>

@@ -41,7 +41,7 @@ const Step2b= ()=>{
     <div>
   <div className={steps.first}>
         <img src={whitenetflixlogo} className={steps.logo} alt='lol' />
-        <p className={steps.firstp}  onClick={()=>navigate('/signout')}>Sign Out</p>
+        <p className={steps.firstp}  onClick={()=>navigate('/signin')}>Sign in</p>
         </div>
         <div className={steps.width}>
         <div className={steps.choose}>
