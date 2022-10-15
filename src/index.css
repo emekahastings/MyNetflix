@@ -340,13 +340,16 @@ bottom: 0.5rem;
    }
    .logo{
     width:25vw;
+    position: relative;
+    bottom: 0.25rem;
     height: auto;
    
   }
   .signin{
    margin-right: 1rem;
   position: relative;
-  bottom: 0rem;
+  bottom: 1rem;
+  left: 0.7rem;
   cursor: pointer;
   }
   .sign{
@@ -394,7 +397,7 @@ bottom: 0.5rem;
       width: 35%;
        padding: 4px;
        font-size: 1.3rem;
-       margin-top: 0rem;
+       margin-top: 0.25rem;
        left: 30%;
     }
     .mail1{
@@ -489,9 +492,8 @@ bottom: 0.5rem;
       width:95vw;
       font-size: 5vw;
       margin-left: 0.5rem;
-      
     position: relative;
-   right: 16.5%;
+   right: 15.9%;
   
     }
     .textw{
@@ -609,16 +611,16 @@ bottom: 0.5rem;
     }
     .mail1{
       width: 70%;
-      padding: 15px;
+      padding: 7.5px;
       position: relative;
      right: 15%;
     }
     .started1{
       width: fit-content;
-      padding:15px;
+      padding:7.5px;
       font-size: 1.3rem;
       text-align: center;
-      margin-left: 10%;
+      margin-left: 7%;
       
     }
     .total{
@@ -651,6 +653,8 @@ bottom: 0.5rem;
      max-height: 50vh;
    }
    .logo{
+    position: relative;
+    bottom: 0.2rem;
     width: 25%;
     height: auto;
    
@@ -658,7 +662,8 @@ bottom: 0.5rem;
   .signin{
    margin-right: 1rem;
   position: relative;
-  bottom: 0rem;
+  bottom: 1rem;
+  left: 0.7rem;
   cursor: pointer;
   }
   .sign{
@@ -705,7 +710,7 @@ bottom: 0.5rem;
       width: 35%;
        padding: 7px;
        font-size: 1.3rem;
-       margin-top: 0rem;
+       margin-top: 0.25rem;
        left: 30%;
     }
     
@@ -753,7 +758,7 @@ bottom: 0.5rem;
     }
     .texta3{
       font-size: 7vw;
-   padding-left: 15%;
+   padding-left: 12%;
     }
     .texta5{
       font-size: 6.5vw;
@@ -787,12 +792,11 @@ bottom: 0.5rem;
   
     }
     .textb3{
-      width:95vw;
+      width:100vw;
       font-size: 4.5vw;
       margin-left: 0.5rem;
-      
     position: relative;
-   right: 16%;
+   right: 14%;
     }
     .textw{
      position: relative;
@@ -909,16 +913,16 @@ bottom: 0.5rem;
     }
     .mail1{
       width: 70%;
-      padding: 15px;
+      padding: 7.5px;
       position: relative;
      right: 15%;
     }
     .started1{
       width: fit-content;
-      padding:15px;
+      padding:7.5px;
       font-size: 1.3rem;
       text-align: center;
-      margin-left: 10%;
+      margin-left: 7%;
       
     }
     .total{
