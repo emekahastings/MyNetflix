@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.a30d4c79.chunk.css",
-  "main.js": "/static/js/main.2ef68b67.chunk.js",
-  "main.js.map": "/static/js/main.2ef68b67.chunk.js.map",
+  "main.css": "/static/css/main.68385102.chunk.css",
+  "main.js": "/static/js/main.1845cab8.chunk.js",
+  "main.js.map": "/static/js/main.1845cab8.chunk.js.map",
   "static/js/1.ac5b1bae.chunk.js": "/static/js/1.ac5b1bae.chunk.js",
   "static/js/1.ac5b1bae.chunk.js.map": "/static/js/1.ac5b1bae.chunk.js.map",
   "static/js/2.06faa136.chunk.js": "/static/js/2.06faa136.chunk.js",
@@ -15,8 +15,8 @@
   "static/media/netflixcovera.jpg": "/static/media/netflixcovera.cde3a4ed.jpg",
   "static/media/img2b.png": "/static/media/img2b.587e040f.png",
   "static/media/img3.png": "/static/media/img3.3da9bb52.png",
-  "static/css/main.a30d4c79.chunk.css.map": "/static/css/main.a30d4c79.chunk.css.map",
+  "static/css/main.68385102.chunk.css.map": "/static/css/main.68385102.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.12034e22bccd980e42d26834ff8d78f9.js": "/precache-manifest.12034e22bccd980e42d26834ff8d78f9.js",
+  "precache-manifest.23531cae65b00ad10fa77b61d0db6dcf.js": "/precache-manifest.23531cae65b00ad10fa77b61d0db6dcf.js",
   "service-worker.js": "/service-worker.js"
 }
