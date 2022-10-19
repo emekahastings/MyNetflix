@@ -347,7 +347,7 @@ body{
  .msg{
     position: relative;
    color: red;
-   
+   line-height: 0px;
    font-weight: 500;
  }
 .end{
@@ -421,8 +421,8 @@ body{
     margin-left: 7%;
 }
  .msg{
-    position: fixed;
-   top: 24%;
+   color: red;
+   line-height: 0px;
    font-weight: 500;
  }
 .end{
