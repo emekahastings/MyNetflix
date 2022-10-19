@@ -15,24 +15,53 @@ const Signin= ()=>{
   const navigate= useNavigate()
   let [lemail, setlemail]= useState()
   let [lpassword, setlpassword]= useState()
-  let [lerror, setlerror]= useState({})
+  let [eerror, seteerror]= useState({})
+  let [perror, setperror]= useState({})
  
-  let login = async()=>{
-    try{
-     let response= await signInWithEmailAndPassword(auth, lemail, lpassword)
-     navigate('./mainpage')
-     console.log(response)
-   
+  function shine(event){
+    setlemail(event.target.value)
+     console.log(event.target.value)
     }
-    catch(error){
-    setlerror(
-      {
-      message: 'Invalid Username/Password',
-    })
-    }
-   
-    
+    let verify = async()=>{
+        try{
+          if(lemail==='' ){
+          seteerror({
+            message:'Password cannot be empty'
+          })
+        }  
+        if(lpassword==='' ){
+          setperror({
+            message:'Password cannot be empty'
+          })
+        }
+        if(lpassword.length < 6 && lpassword.length > 1){
+          setperror({
+            message: 'Password cannot be less than 6 digits', 
+          })
+          }
+          console.log('Enter')
+        }
+        catch(error){
+         
+        seteerror({
+          message: 'No field should be empty', 
+        })
+        
+      }
+
  }
+ let logins = async()=>{
+  try{
+   let response= await signInWithEmailAndPassword(auth, lemail, lpassword)
+   navigate('./mainpage')
+   console.log(response)
+ 
+  }
+  catch(error){
+      verify()
+  }
+ 
+}
  
     return (        
       <div>
@@ -54,17 +83,18 @@ const Signin= ()=>{
         </nav> 
 
            
-      <p className={styles.msg}>{lerror.message}</p>
+     
        
-          
-          <input className={styles.email} type='text' placeholder="Email or Phone Number" onChange={(event)=>{setlemail(event.target.value)}} /> <br /> 
+        <p className={styles.msg}>{eerror.message}</p>
+          <input className={styles.email} type='text' placeholder="Email or Phone Number" onChange={shine} /> <br /> 
 
+         
           <input className={styles.password} type='password' placeholder="Password" onChange={(event)=>{setlpassword(event.target.value)}} />
-        
+          <p className={styles.msg}>{perror.message}</p>
 
           <div className={styles.sign}>
             <nav>
-            <h3 className={styles.si} onClick={login}>Sign in</h3> 
+            <h3 className={styles.si} onClick={logins}>Sign in</h3> 
             </nav>
           </div>
         
